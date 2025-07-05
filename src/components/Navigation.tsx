@@ -20,6 +20,7 @@ const Navigation: React.FC<NavigationProps> = ({
     { id: "home", label: "Home" },
     { id: "about-college", label: "About College" },
     { id: "leadership", label: "Leadership" },
+    { id: "about", label: "About IEDC" },
     { id: "timeline", label: "Timeline" },
     { id: "projects", label: "Projects" },
     { id: "team", label: "Team" },
