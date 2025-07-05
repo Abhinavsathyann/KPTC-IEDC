@@ -36,33 +36,6 @@ const ProjectShowcase: React.FC = () => {
       github: 'https://github.com/example/smartcampus',
       demo: 'https://smartcampus-demo.com',
       year: '2023'
-    },
-    {
-      id: 4,
-      title: 'FitTracker Pro',
-      description: 'Mobile fitness application with AI-powered workout recommendations, progress tracking, and personalized nutrition plans.',
-      image: 'https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: 'https://github.com/example/fittracker',
-      demo: 'https://fittracker-demo.com',
-      year: '2023'
-    },
-    {
-      id: 5,
-      title: 'IoT Smart Garden',
-      description: 'Automated garden monitoring system using IoT sensors for optimal plant growth with remote monitoring and automated irrigation.',
-      image: 'https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: 'https://github.com/example/smartgarden',
-      demo: 'https://smartgarden-demo.com',
-      year: '2023'
-    },
-    {
-      id: 6,
-      title: 'CryptoLearn Platform',
-      description: 'Educational blockchain platform for learning cryptocurrency and DeFi concepts with interactive tutorials and simulations.',
-      image: 'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: 'https://github.com/example/cryptolearn',
-      demo: 'https://cryptolearn-demo.com',
-      year: '2022'
     }
   ];
 
