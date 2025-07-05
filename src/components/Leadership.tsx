@@ -9,32 +9,56 @@ const Leadership: React.FC = () => {
   const leaders = [
     {
       id: 1,
-      name: "Dr. Rajesh Kumar",
-      position: "Principal",
+      name: "Dr. Prasanna",
+      position: "DIRECTOR",
       image:
-        "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/Director-1536x1024.jpg",
       email: "principal@college.edu",
       phone: "+1 (555) 123-4567",
       linkedin: "https://linkedin.com/in/rajeshkumar",
       message:
-        "Education is the most powerful weapon which you can use to change the world. At our institution, we are committed to nurturing not just academic excellence, but also character, creativity, and critical thinking. Our students are prepared to be leaders who will shape the future of our society.",
+        "At Kuttukaran Polytechnic College, we proudly build on the legacy of one of South India’s largest and most respected automobile dealership groups. Established on March 21, 2022, through the acquisition of Matha College of Technology, we offer programs in Automobile, Mechanical, Electrical and Electronics, Civil, and Computer Engineering. We are committed to nurturing young minds through strong theoretical foundations and hands-on learning. Alongside academics, we emphasize extracurricular activities, industry interactions, and internships to develop well-rounded, industry-ready graduates. With Kuttukaran’s proven 80-year legacy and the support of our faculty, management, parents, and stakeholders, we aim to empower students with skills, knowledge, and values for employability and entrepreneurship.",
     },
     {
       id: 2,
-      name: "Dr. Priya Sharma",
-      position: "Dean of Academic Affairs",
+      name: "Ms. Jilja Rajesh",
+      position: "PRINCIPAL",
       image:
-        "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/Principal-1536x1024.jpg",
       email: "dean.academic@college.edu",
       phone: "+1 (555) 123-4568",
       linkedin: "https://linkedin.com/in/priyasharma",
       message:
-        "Academic excellence is not just about grades; it's about fostering a culture of inquiry, innovation, and intellectual growth. We strive to create an environment where every student can discover their potential and pursue their passions with confidence and purpose.",
+        "Welcome to Kuttukaran Polytechnic College, where we are dedicated to edifying, empowering, and exploring the potential of every student. Our vision is to transform capabilities into competencies through rigorous academics, practical training, and industry-relevant curriculum. Rooted in the legacy of the automobile industry, we focus on skill development, employability, and staying aligned with the latest trends through strong industry partnerships. Our dedicated faculty ensures that students receive the best guidance on their journey toward excellence. Join us at KPTC — discover your potential, build valuable skills, and unlock a world of opportunities.",
     },
     {
       id: 3,
-      name: "Dr. Amit Patel",
-      position: "Dean of Research & Innovation",
+      name: "Mr. Sandeep",
+      position: "Dean",
+      image:
+        "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
+      email: "dean.research@college.edu",
+      phone: "+1 (555) 123-4569",
+      linkedin: "https://linkedin.com/in/amitpatel",
+      message:
+        "Research and innovation are the cornerstones of progress. Our mission is to create an ecosystem where groundbreaking research flourishes, where students and faculty collaborate to solve real-world problems, and where innovation becomes a way of life.",
+    },
+    {
+      id: 4,
+      name: "Dr. Dhanalakshmi",
+      position: "Academic Advisor",
+      image:
+        "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
+      email: "dean.research@college.edu",
+      phone: "+1 (555) 123-4569",
+      linkedin: "https://linkedin.com/in/amitpatel",
+      message:
+        "Research and innovation are the cornerstones of progress. Our mission is to create an ecosystem where groundbreaking research flourishes, where students and faculty collaborate to solve real-world problems, and where innovation becomes a way of life.",
+    },
+    {
+      id: 5,
+      name: "Mr. Ebin petter",
+      position: "IEDC Coordinator",
       image:
         "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
       email: "dean.research@college.edu",
@@ -47,32 +71,46 @@ const Leadership: React.FC = () => {
 
   const departmentHeads = [
     {
-      name: "Dr. Sarah Johnson",
-      department: "Computer Science & Engineering",
+      name: "Ms Jitha K Wilson",
+      department: "Civil Engineering",
       image:
-        "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400",
-      email: "hod.cse@college.edu",
+        "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/HOD-CIVIL-1536x1024.jpg",
+      email: "hod.civil@kuttukaranpoly.com",
     },
     {
-      name: "Dr. Michael Chen",
-      department: "Electronics & Communication",
-      image:
-        "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
-      email: "hod.ece@college.edu",
-    },
-    {
-      name: "Dr. Lisa Rodriguez",
+      name: "Mr Harisankar H",
       department: "Mechanical Engineering",
       image:
-        "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=400",
-      email: "hod.mech@college.edu",
+        "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/HOD-MECH-2-1536x1024.jpg",
+      email: "hod.mech@kuttukaranpoly.com",
     },
     {
-      name: "Dr. David Kim",
-      department: "Business Administration",
+      name: "Ms Ashitha Baby",
+      department: "Electrical & Electronics Engineering",
       image:
-        "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400",
-      email: "hod.mba@college.edu",
+        "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/HOD-EEE-1536x1024.jpg",
+      email: "hod.eee@kuttukaranpoly.com",
+    },
+    {
+      name: "Ms Asamol M A",
+      department: "Computer Engineering",
+      image:
+        "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/HOD-CS-1536x1024.jpg",
+      email: "hod.computer@kuttukaranpoly.com",
+    },
+    {
+      name: "Automobile Engineering",
+      department: "Mr Sharath Krishnan C K",
+      image:
+        "https://www.kuttukaranpoly.com/wp-content/uploads/2025/03/Sharath-Krishnan-C-K.jpeg",
+      email: "hod.auto@kuttukaranpoly.com",
+    },
+    {
+      name: "Science & Humanities",
+      department: "Ms Usha Radhakrishnan",
+      image:
+        "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/HOD-SH-1536x1024.jpg",
+      email: "hod.sh@kuttukaranpoly.com",
     },
   ];
 

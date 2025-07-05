@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import AboutCollege from "./components/AboutCollege";
 import Leadership from "./components/Leadership";
+import About from "./components/About";
 import Timeline from "./components/Timeline";
 import ProjectShowcase from "./components/ProjectShowcase";
 import Team from "./components/Team";
@@ -34,6 +35,7 @@ function App() {
         "home",
         "about-college",
         "leadership",
+        "about",
         "timeline",
         "projects",
         "team",
@@ -128,6 +130,7 @@ function App() {
           <Hero onNavigate={scrollToSection} />
           <AboutCollege />
           <Leadership />
+          <About />
           <Timeline />
           <ProjectShowcase />
           <Team />

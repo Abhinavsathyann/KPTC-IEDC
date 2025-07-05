@@ -30,58 +30,52 @@ const AboutCollege: React.FC = () => {
   const facilities = [
     {
       icon: Microscope,
-      title: 'Research Labs',
-      description: 'State-of-the-art research facilities with cutting-edge equipment for innovation and discovery.'
+      title: 'HERO Two‑Wheeler Skill Development Center',
+      description: 'Collaboration with Hero MotoCorp and NCVET‑approved training on two‑wheeler maintenance and repair—63 days of theory and practical, followed by 14 days of on‑the‑job training.'
     },
     {
       icon: BookOpen,
-      title: 'Digital Library',
-      description: 'Comprehensive digital library with access to millions of books, journals, and research papers.'
+      title: 'Library',
+      description: 'Stocks university textbooks, reference works, journals, and magazines. Located on the first floor of the west block, it features a large reading area, OPAC, reprographic services, overnight reference issue, internet access, and a spacious study environment.'
     },
     {
       icon: Globe,
-      title: 'Innovation Hub',
-      description: 'Dedicated spaces for startups, incubation, and collaborative innovation projects.'
+      title: ' Indoor & Outdoor Games & Gym',
+      description: 'Outdoor facilities include football, badminton, shuttle courts, and a jumping pit. A sports complex and fitness centre offer gym equipment (treadmill, bikes) plus indoor table‑tennis. '
     },
     {
       icon: Trophy,
-      title: 'Sports Complex',
-      description: 'World-class sports facilities including gymnasium, swimming pool, and outdoor courts.'
+      title: 'Store',
+      description: 'A cooperative store offering books, stationery, mentoring guides, evaluation materials, and reprographic services at subsidised rates.'
     }
   ];
 
   const programs = [
-    'Computer Science & Engineering',
-    'Electronics & Communication',
-    'Mechanical Engineering',
-    'Civil Engineering',
-    'Business Administration',
-    'Biotechnology',
-    'Information Technology',
-    'Electrical Engineering'
+    'Diploma in Electrical & Electronics Engineering',
+    'Diploma in Automobile Engineering',
+    'Diploma in Mechanical Engineering',
+    'Diploma in Civil Engineering',
+    'Diploma in Computer Engineering'
+  
   ];
 
   const achievements = [
     {
       year: '2024',
-      title: 'NIRF Ranking #15',
-      description: 'Achieved top 15 position in National Institutional Ranking Framework'
+      title: 'Academic Membership in ICT Academy',
+      description: 'The college proudly earned academic membership in the ICT Academy, strengthening its commitment to bridging academic learning with industry-grade digital skills'
     },
     {
-      year: '2023',
-      title: 'Best Innovation Award',
-      description: 'Recognized for outstanding contribution to research and innovation'
+      year: '2022-23',
+      title: 'Faculty Development & Innovation',
+      description: 'Computer Engineering, Automobile, Civil, and Humanities faculty members successfully completed various AICTE‑ and SITTTR‑led Faculty Development Programs, including Universal Human Values and NBA Accreditation Process training'
     },
     {
-      year: '2022',
-      title: 'Accreditation A++',
-      description: 'Received highest grade from National Assessment and Accreditation Council'
-    },
-    {
-      year: '2021',
-      title: 'Industry Partnership',
-      description: 'Established partnerships with 50+ leading industry organizations'
+      year: '2022-23',
+      title: 'Active NSS & Community Service',
+      description: 'The NSS unit carried out multiple impactful initiatives—tree plantations, Clean India Campaign, anti-drug quiz, unity run, cultural events, and health-awareness programs—bolstering community engagement'
     }
+    
   ];
 
   return (
@@ -97,7 +91,7 @@ const AboutCollege: React.FC = () => {
             About Our <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">College</span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            A premier institution of higher learning, fostering excellence in education, research, and innovation since 1965
+           Educational initiatives and activities that raise academic standards and promote academic excellence.
           </p>
         </motion.div>
 
@@ -110,14 +104,10 @@ const AboutCollege: React.FC = () => {
           >
             <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Our Legacy</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              Established in 1965, our college has been at the forefront of educational excellence for over five decades. 
-              We have consistently evolved to meet the changing needs of society while maintaining our core values of 
-              integrity, innovation, and inclusivity.
+              The Kuttukaran Polytechnic College run by the Kuttukaran Foundation, an educational trust under the Kuttukaran Group, is a well – established polytechnic college at Manakkappady, N. Paravur, Ernakulam. The institution is approved by the AICTE – Govt of India and affiliated to SBTE / DTE – Govt. of Kerala. Kuttukaran is a leading business Group operating multi– brand vehicle dealerships in Kerala and beyond. 
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              Our institution is renowned for its commitment to holistic education, combining academic rigor with 
-              practical application. We prepare students not just for careers, but for leadership roles in an 
-              increasingly complex and interconnected world.
+              Our goal is to provide high – quality technical education to aspiring minds thereby nurturing entrepreneurs and professionals. Kuttukaran Polytechnic College ensures the greatest academic experience possible, by focusing on skill development, placement, and research.
             </p>
             <div className="flex items-center space-x-4">
               <div className="flex items-center text-gray-500 dark:text-gray-400">
@@ -138,9 +128,9 @@ const AboutCollege: React.FC = () => {
             className="relative"
           >
             <img
-              src="https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://kuttukaranpoly.com/wp-content/uploads/2022/10/Pic.jpg"
               alt="College Campus"
-              className="w-full h-80 object-cover rounded-2xl shadow-lg"
+              className="w-full h-130 object-cover rounded-2xl shadow-lg"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl" />
           </motion.div>
@@ -176,9 +166,10 @@ const AboutCollege: React.FC = () => {
           >
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Mission</h3>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              To provide world-class education that empowers students with knowledge, skills, and values necessary 
-              to excel in their chosen fields while contributing meaningfully to society through innovation, 
-              research, and ethical leadership.
+             To give a platform for exploring and improving individual skill sets.<br></br>
+To facilitate transformation of capabilities of young talent into competencies.<br></br>
+To sharpen individual competencies into entrepreneurial and employability skills.<br></br>
+To cater persistently to the Industry demand.
             </p>
           </motion.div>
 
@@ -190,8 +181,7 @@ const AboutCollege: React.FC = () => {
           >
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Vision</h3>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              To be a globally recognized institution of excellence that shapes future leaders, drives innovation, 
-              and creates sustainable solutions for the challenges facing humanity in the 21st century and beyond.
+              “Igniting the passion for learning and excellence.”
             </p>
           </motion.div>
         </div>
@@ -204,7 +194,7 @@ const AboutCollege: React.FC = () => {
           className="mb-20"
         >
           <h3 className="text-3xl font-bold text-gray-900 dark:text-white text-center mb-12">
-            World-Class Facilities
+            Facilities
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {facilities.map((facility, index) => (
@@ -237,8 +227,7 @@ const AboutCollege: React.FC = () => {
               Academic Programs
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              We offer a comprehensive range of undergraduate and postgraduate programs designed to meet 
-              the evolving needs of industry and society.
+             We offer a comprehensive range of diploma programs designed to equip students with industry-relevant skills and knowledge. Our curriculum blends practical training with strong academic foundations, preparing graduates to thrive in today’s rapidly evolving technical and professional landscape.
             </p>
             <div className="grid grid-cols-1 gap-3">
               {programs.map((program, index) => (
