@@ -15,10 +15,10 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   });
 
   const stats = [
-    { value: 150, label: 'Startups Launched', suffix: '+' },
-    { value: 2500, label: 'Students Engaged', suffix: '+' },
-    { value: 50, label: 'Awards Won', suffix: '+' },
-    { value: 300, label: 'Ideas Incubated', suffix: '+' }
+    { value: 1, label: 'Startups Launched', suffix: '+' },
+    { value: 50, label: 'Students Engaged', suffix: '+' },
+    { value: 1, label: 'Awards Won', suffix: '+' },
+    { value: 1, label: 'Ideas Incubated', suffix: '+' }
   ];
 
   return (
@@ -109,20 +109,20 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
         >
           <motion.button
-            onClick={() => onNavigate('projects')}
+            onClick={() => onNavigate('about')}
             whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(59, 130, 246, 0.3)" }}
             whileTap={{ scale: 0.95 }}
             className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
           >
-            Explore Projects
+            About IEDC
           </motion.button>
           <motion.button
-            onClick={() => onNavigate('events')}
+            onClick={() => onNavigate('gallery')}
             whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(0, 0, 0, 0.1)" }}
             whileTap={{ scale: 0.95 }}
             className="bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-8 py-4 rounded-full font-semibold text-lg border-2 border-gray-300 dark:border-gray-600 hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-300"
           >
-            Join Events
+            Gallery
           </motion.button>
         </motion.div>
 

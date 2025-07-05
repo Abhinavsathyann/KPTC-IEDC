@@ -21,10 +21,10 @@ const AboutCollege: React.FC = () => {
   });
 
   const stats = [
-    { icon: Users, value: '15,000+', label: 'Students' },
-    { icon: GraduationCap, value: '50+', label: 'Programs' },
-    { icon: Building, value: '25+', label: 'Departments' },
-    { icon: Award, value: '100+', label: 'Awards' }
+    { icon: Users, value: '500+', label: 'Students' },
+    { icon: GraduationCap, value: '5+', label: 'Programs' },
+    { icon: Building, value: '5+', label: 'Departments' },
+    { icon: Award, value: '5+', label: 'Awards' }
   ];
 
   const facilities = [
