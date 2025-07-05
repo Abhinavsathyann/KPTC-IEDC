@@ -53,15 +53,20 @@ const Navigation: React.FC<NavigationProps> = ({
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto px-5 sm:px-8 lg:px-10">
-        <div className="flex justify-around items-center h-16">
-          {/* Logo */}
-          <motion.div
-            className="flex items-center"
-            whileHover={{ scale: 1.05 }}
-          >
+    <div className="mx-auto px-5 sm:px-8 lg:px-10">
+  <div className="flex justify-around items-center h-16">
+    {/* Logo */}
+    <motion.div
+      className="flex items-center"
+      whileHover={{ scale: 1.05 }}
+    >
+      <img
+        src="https://www.kuttukaranpoly.com/wp-content/uploads/2022/10/logo.png"
+        alt="Kuttukaran Polytechnic College Logo"
+        className="h-6 w-auto"
+      />
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              KPTC IEDC
+              IEDC
             </span>
           </motion.div>
 
