@@ -13,9 +13,9 @@ const Leadership: React.FC = () => {
       position: "DIRECTOR",
       image:
         "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/Director-1536x1024.jpg",
-      email: "principal@college.edu",
-      phone: "+1 (555) 123-4567",
-      linkedin: "https://linkedin.com/in/rajeshkumar",
+      email: "#",
+      phone: "#",
+      linkedin: "#",
       message:
         "At Kuttukaran Polytechnic College, we proudly build on the legacy of one of South India’s largest and most respected automobile dealership groups. Established on March 21, 2022, through the acquisition of Matha College of Technology, we offer programs in Automobile, Mechanical, Electrical and Electronics, Civil, and Computer Engineering. We are committed to nurturing young minds through strong theoretical foundations and hands-on learning. Alongside academics, we emphasize extracurricular activities, industry interactions, and internships to develop well-rounded, industry-ready graduates. With Kuttukaran’s proven 80-year legacy and the support of our faculty, management, parents, and stakeholders, we aim to empower students with skills, knowledge, and values for employability and entrepreneurship.",
     },
@@ -25,9 +25,9 @@ const Leadership: React.FC = () => {
       position: "PRINCIPAL",
       image:
         "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/Principal-1536x1024.jpg",
-      email: "dean.academic@college.edu",
-      phone: "+1 (555) 123-4568",
-      linkedin: "https://linkedin.com/in/priyasharma",
+      email: "#",
+      phone: "#",
+      linkedin: "#",
       message:
         "Welcome to Kuttukaran Polytechnic College, where we are dedicated to edifying, empowering, and exploring the potential of every student. Our vision is to transform capabilities into competencies through rigorous academics, practical training, and industry-relevant curriculum. Rooted in the legacy of the automobile industry, we focus on skill development, employability, and staying aligned with the latest trends through strong industry partnerships. Our dedicated faculty ensures that students receive the best guidance on their journey toward excellence. Join us at KPTC — discover your potential, build valuable skills, and unlock a world of opportunities.",
     },
@@ -37,21 +37,21 @@ const Leadership: React.FC = () => {
       position: "Dean",
       image:
         "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
-      email: "dean.research@college.edu",
-      phone: "+1 (555) 123-4569",
-      linkedin: "https://linkedin.com/in/amitpatel",
+      email: "#",
+      phone: "#",
+      linkedin: "#",
       message:
         "Research and innovation are the cornerstones of progress. Our mission is to create an ecosystem where groundbreaking research flourishes, where students and faculty collaborate to solve real-world problems, and where innovation becomes a way of life.",
     },
     {
       id: 4,
-      name: "Dr. Dhanalakshmi",
+      name: "Dr. T Dhanalakshmi",
       position: "Academic Advisor",
       image:
         "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
-      email: "dean.research@college.edu",
-      phone: "+1 (555) 123-4569",
-      linkedin: "https://linkedin.com/in/amitpatel",
+      email: "aa@kuttukaranpoly.com",
+      phone: "#",
+      linkedin: "#",
       message:
         "Research and innovation are the cornerstones of progress. Our mission is to create an ecosystem where groundbreaking research flourishes, where students and faculty collaborate to solve real-world problems, and where innovation becomes a way of life.",
     },

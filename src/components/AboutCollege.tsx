@@ -112,7 +112,7 @@ const AboutCollege: React.FC = () => {
             <div className="flex items-center space-x-4">
               <div className="flex items-center text-gray-500 dark:text-gray-400">
                 <Calendar className="h-5 w-5 mr-2" />
-                <span>Established 1965</span>
+                <span>Established 2022</span>
               </div>
               <div className="flex items-center text-gray-500 dark:text-gray-400">
                 <MapPin className="h-5 w-5 mr-2" />
