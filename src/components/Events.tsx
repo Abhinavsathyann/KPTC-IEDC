@@ -26,7 +26,7 @@ const Events: React.FC = () => {
       id: 3,
       title: "Blockchain Workshop Series",
       description: "Hands-on workshop covering blockchain technology, smart contracts, and decentralized applications development.",
-      image: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "  "
     }
   ];
 

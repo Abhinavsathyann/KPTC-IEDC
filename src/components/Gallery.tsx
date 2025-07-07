@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Calendar } from 'lucide-react';
+import event1 from '../assets/Photos/ESUMMIT25-5(1).jpg';
 
 const Gallery: React.FC = () => {
   const [ref, inView] = useInView({
@@ -11,7 +12,7 @@ const Gallery: React.FC = () => {
 
   const galleryImages = [
     {
-      src: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: event1,
       alt: "Startup Pitch Competition",
       title: "Annual Startup Pitch Competition 2024",
       date: "March 2024",
@@ -149,3 +150,4 @@ const Gallery: React.FC = () => {
 };
 
 export default Gallery;
+
