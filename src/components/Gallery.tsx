@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Calendar } from 'lucide-react';
-import event1 from '../assets/Photos/NEC2024.jpg';
+import event1 from '/public/assets/Photos/events1.jpg';
 
 const Gallery: React.FC = () => {
   const [ref, inView] = useInView({
