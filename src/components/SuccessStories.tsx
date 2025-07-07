@@ -41,6 +41,12 @@ const SuccessStories: React.FC = () => {
       image: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800",
       title: "FinTech Innovators",
       description: "Digital banking solution for rural communities, providing financial services to 500,000+ previously unbanked individuals."
+    },
+     {
+      id: 5,
+      image: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "FinTech Innovators",
+      description: "Digital banking solution for rural communities, providing financial services to 500,000+ previously unbanked individuals."
     }
   ];
 
@@ -188,7 +194,7 @@ const SuccessStories: React.FC = () => {
               />
             </div>
             <p className="text-xs text-gray-500 dark:text-gray-400 text-center mt-2">
-              Auto-advancing in 5 seconds
+             
             </p>
           </div>
         </div>

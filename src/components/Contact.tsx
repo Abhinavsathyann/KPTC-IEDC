@@ -92,9 +92,8 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white mb-1">IEDC Office Address</h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Your College Name<br />
-                      123 Innovation Drive<br />
-                      College City, State 12345
+                      Kuttukaran Polytechnic college<br />
+                     Manakkappaddi- Manjali Road, Karumallor P O, N.Paravur, Ernakulam-683511<br />
                     </p>
                   </div>
                 </motion.div>
@@ -112,7 +111,7 @@ const Contact: React.FC = () => {
                       href="mailto:iedc@college.edu"
                       className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                     >
-                      iedc@college.edu
+                     info@kuttukaranpoly.com
                     </a>
                   </div>
                 </motion.div>
@@ -130,7 +129,7 @@ const Contact: React.FC = () => {
                       href="tel:+15551234567"
                       className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                     >
-                      +1 (555) 123-4567
+                     +91 8129077788
                     </a>
                   </div>
                 </motion.div>
@@ -142,7 +141,7 @@ const Contact: React.FC = () => {
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Follow Us</h3>
               <div className="flex space-x-4">
                 <motion.a
-                  href="https://instagram.com/iedc_yourcollege"
+                  href="https://instagram.com/kptc_iedc"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, rotate: 5 }}
@@ -152,7 +151,7 @@ const Contact: React.FC = () => {
                   <Instagram className="h-6 w-6" />
                 </motion.a>
                 <motion.a
-                  href="https://linkedin.com/company/iedc-yourcollege"
+                  href="https://www.linkedin.com/in/kptc-e-iedc-a53262334/"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, rotate: -5 }}
@@ -162,7 +161,7 @@ const Contact: React.FC = () => {
                   <Linkedin className="h-6 w-6" />
                 </motion.a>
                 <motion.a
-                  href="https://youtube.com/@iedc-yourcollege"
+                  href="https://www.youtube.com/@kptcofficial/videos"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, rotate: 5 }}
@@ -205,16 +204,17 @@ const Contact: React.FC = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg"
           >
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Send us a Message</h3>
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">Send us a Message</h3>
+             <h1 className="text-1s  text-red-800  mb-6">Temporarily disabled</h1>
             
             {isSubmitted && (
               <motion.div
-                initial={{ opacity: 0, y: -20 }}
+                initial={{ opacity: 0, y: -80 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mb-6 p-4 bg-green-100 dark:bg-green-900 border border-green-200 dark:border-green-700 rounded-lg flex items-center space-x-2"
+                className="mb-6 p-4 bg-red-100 dark:bg-red-900 border border-red-200 dark:border-red-700 rounded-lg flex items-center space-x-2"
               >
-                <CheckCircle className="h-5 w-5 text-green-600 dark:text-green-400" />
-                <span className="text-green-800 dark:text-green-200">Message sent successfully!</span>
+                {/* <CheckCircle className="h-5 w-5 text-red-600 dark:text-red-400" /> */}
+                <span className="text-red-800 dark:text-red-200">We are currently facing some technical issues and have temporarily disabled the messaging option. Please contact us directly via email or phone.</span>
               </motion.div>
             )}
 
@@ -330,7 +330,7 @@ const Contact: React.FC = () => {
               Visit our IEDC office located in the main academic building. We're here to help you turn your ideas into reality.
             </p>
             <motion.a
-              href="https://maps.google.com/?q=Your+College+Name"
+              href="https://www.google.com/maps/place/Kuttukaran+Polytechnic+College+(KPTC)/@10.1275582,76.2685137,20256m/data=!3m1!1e3!4m6!3m5!1s0x3b080ffde58b8a59:0xf98cfc2b1a694619!8m2!3d10.141449!4d76.2720272!16s%2Fg%2F1tr15_lr?hl=en&entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

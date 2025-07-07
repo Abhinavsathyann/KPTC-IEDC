@@ -15,12 +15,12 @@ const Footer: React.FC = () => {
       { label: 'Contact', href: '#contact' }
     ],
     resources: [
-      { label: 'Startup Guide', href: '#' },
-      { label: 'Funding Resources', href: '#' },
-      { label: 'Mentorship Program', href: '#' },
-      { label: 'Innovation Lab', href: '#' },
-      { label: 'Success Stories', href: '#success' },
-      { label: 'Blog', href: '#' }
+      { label: 'IEDC Official website', href: 'https://iedc.startupmission.in/' },
+      { label: 'Startup Guide', href: 'https://emeritus.org/in/learn/how-to-start-a-startup-in-india/' },
+      { label: 'Funding Resources', href: 'https://www.startupindia.gov.in/content/sih/en/funding.html' },
+      { label: 'IEDC Kerala WhatsApp Channel', href: 'https://www.whatsapp.com/channel/0029VaAY5kI2Jl8FQrAt4K1K' },
+      { label: 'Success Stories', href: 'https://www.startup.ind.in/2021/01/80-indian-startup-success-stories-for.html' },
+      { label: 'Blog', href: 'https://www.startupindia.gov.in/content/sih/en/bloglist.html' }
     ],
     programs: [
       { label: 'Incubation Program', href: '#' },
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
                   IEDC
                 </h3>
                 <p className="text-gray-400 mb-6 leading-relaxed">
-                  Innovation and Entrepreneurship Development Cell at Your College Name. 
+                  Innovation and Entrepreneurship Development Cell at Kuttukaran Polytechnic College. 
                   Empowering students to transform ideas into impactful ventures through 
                   comprehensive support, mentorship, and a thriving ecosystem of innovation.
                 </p>
@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
                 {/* Social Media */}
                 <div className="flex space-x-4">
                   <motion.a
-                    href="https://instagram.com/iedc_yourcollege"
+                    href="https://www.instagram.com/kptc_iedc/"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.2, rotate: 5 }}
@@ -91,8 +91,9 @@ const Footer: React.FC = () => {
                   >
                     <Instagram className="h-5 w-5" />
                   </motion.a>
+                  
                   <motion.a
-                    href="https://linkedin.com/company/iedc-yourcollege"
+                    href="https://www.linkedin.com/in/kptc-e-iedc-a53262334/"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.2, rotate: -5 }}
@@ -101,7 +102,7 @@ const Footer: React.FC = () => {
                     <Linkedin className="h-5 w-5" />
                   </motion.a>
                   <motion.a
-                    href="https://youtube.com/@iedc-yourcollege"
+                    href="https://www.youtube.com/@kptcofficial/videos"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.2, rotate: 5 }}
@@ -210,7 +211,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-sm text-gray-400">Address</div>
-                  <div className="text-white">Your College Name, City</div>
+                  <div className="text-white">Manakkappaddi- Manjali Road, Karumallor P O, N.Paravur, Ernakulam-683511</div>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -220,7 +221,7 @@ const Footer: React.FC = () => {
                 <div>
                   <div className="text-sm text-gray-400">Email</div>
                   <a href="mailto:iedc@college.edu" className="text-white hover:text-blue-400 transition-colors">
-                    iedc@college.edu
+                    info@kuttukaranpoly.com
                   </a>
                 </div>
               </div>
@@ -231,7 +232,7 @@ const Footer: React.FC = () => {
                 <div>
                   <div className="text-sm text-gray-400">Phone</div>
                   <a href="tel:+15551234567" className="text-white hover:text-blue-400 transition-colors">
-                    +1 (555) 123-4567
+                    +91 8129077788
                   </a>
                 </div>
               </div>
@@ -248,7 +249,7 @@ const Footer: React.FC = () => {
           >
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 text-sm mb-4 md:mb-0">
-                © {currentYear} IEDC Your College Name. All Rights Reserved.
+                © {currentYear} IEDC Kuttukaran Polytechnic College. All Rights Reserved.
               </p>
               <div className="flex items-center space-x-6">
                 <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
@@ -258,14 +259,14 @@ const Footer: React.FC = () => {
                   Terms of Service
                 </a>
                 <div className="flex items-center text-gray-400 text-sm">
-                  <span>Made with</span>
+                  {/* <span>Made with</span> */}
                   <motion.div
                     animate={{ scale: [1, 1.2, 1] }}
                     transition={{ duration: 1, repeat: Infinity }}
                   >
-                    <Heart className="h-4 w-4 mx-1 text-red-500" />
+                    {/* <Heart className="h-4 w-4 mx-1 text-red-500" /> */}
                   </motion.div>
-                  <span>by IEDC Team</span>
+                  <span>Made with by KPTC IEDC Team</span>
                 </div>
               </div>
             </div>
