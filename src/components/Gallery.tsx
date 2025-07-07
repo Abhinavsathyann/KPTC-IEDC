@@ -74,6 +74,13 @@ const Gallery: React.FC = () => {
       date: "July 2023",
       description: "Bringing together tech leaders and innovators from industry"
     },
+     {
+      src: "/assets/photos/NEC2024LOGO.jpg",
+      alt: "Healthcare Innovation",
+      title: "Healthcare Innovation Challenge",
+      date: "April 2023",
+      description: "Developing solutions for healthcare challenges and problems"
+    },
     {
       src: "/assets/photos/ESUMMIT24.jpg",
       alt: "Blockchain Workshop",
@@ -118,13 +125,6 @@ const Gallery: React.FC = () => {
     },
      {
       src: "/assets/photos/CELLUNIT2024-9.jpg",
-      alt: "Healthcare Innovation",
-      title: "Healthcare Innovation Challenge",
-      date: "April 2023",
-      description: "Developing solutions for healthcare challenges and problems"
-    },
-     {
-      src: "/assets/photos/CELLUNIT2024-8.jpg",
       alt: "Healthcare Innovation",
       title: "Healthcare Innovation Challenge",
       date: "April 2023",
