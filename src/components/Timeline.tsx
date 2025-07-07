@@ -41,48 +41,37 @@ const Timeline: React.FC = () => {
   }, [inView]);
 
   const milestones = [
+      {
+      year: '2022',
+      title: 'IEDC Establishment',
+      description: 'Founded the Innovation and Entrepreneurship Development Cell with a vision to foster startup culture.',
+      icon: Calendar,
+      color: 'from-teal-500 to-blue-500'
+    },
+      {
+      year: '2023',
+      title: 'Qualified NEC 2023',
+      description: 'Qualified for NEC 2024 conducted by E-Cell, IIT Bombay.',
+      icon: Users,
+      color: 'from-indigo-500 to-purple-500'
+    },
     {
       year: '2024',
-      title: 'AI Innovation Summit',
-      description: 'Hosted the largest AI and ML innovation summit with 500+ participants and 50+ startups showcasing their solutions.',
-      icon: Lightbulb,
-      color: 'from-blue-500 to-cyan-500'
+      title: 'Qualified NEC 2024',
+      description: 'Qualified for NEC 2024 conducted by E-Cell, IIT Bombay',
+      icon: Rocket,
+      color: 'from-orange-500 to-red-500'
     },
     {
-      year: '2023',
-      title: 'Unicorn Startup Launch',
-      description: 'One of our incubated startups achieved unicorn status, becoming the first billion-dollar company from our college.',
-      icon: Trophy,
-      color: 'from-purple-500 to-pink-500'
-    },
-    {
-      year: '2022',
+      year: '2025',
       title: 'International Recognition',
       description: 'IEDC received the "Best Innovation Cell" award from the Ministry of Education for outstanding contributions.',
       icon: Award,
       color: 'from-green-500 to-emerald-500'
     },
-    {
-      year: '2021',
-      title: 'Startup Accelerator Program',
-      description: 'Launched our flagship accelerator program, supporting 100+ startups with funding and mentorship.',
-      icon: Rocket,
-      color: 'from-orange-500 to-red-500'
-    },
-    {
-      year: '2020',
-      title: 'Digital Transformation',
-      description: 'Pivoted to virtual events and online mentorship during the pandemic, reaching 10,000+ students globally.',
-      icon: Users,
-      color: 'from-indigo-500 to-purple-500'
-    },
-    {
-      year: '2019',
-      title: 'IEDC Establishment',
-      description: 'Founded the Innovation and Entrepreneurship Development Cell with a vision to foster startup culture.',
-      icon: Calendar,
-      color: 'from-teal-500 to-blue-500'
-    }
+    
+  
+  
   ];
 
   return (

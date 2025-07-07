@@ -14,40 +14,35 @@ const SuccessStories: React.FC = () => {
   const stories = [
     {
       id: 1,
-      image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "TechFlow Solutions",
-      description: "AI-powered workflow automation platform helping businesses increase productivity by 40%. From a college project to a million-dollar company."
+      image: "https://www.kuttukaranpoly.com/wp-content/uploads/2024/06/mvd_session_02.jpg",
+      title: "mvd session",
+      description: "mvd session."
     },
     {
       id: 2,
-      image: "https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "EcoGreen Innovations",
-      description: "Sustainable packaging solutions using biodegradable materials, reducing plastic waste by 80% for e-commerce businesses worldwide."
+      image: "https://www.kuttukaranpoly.com/wp-content/uploads/2024/06/0014-scaled.jpg",
+      title: "IEDC example",
+      description: "iedc example of success stories."
     },
     {
       id: 3,
-      image: "https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "HealthTech Pro",
-      description: "Telemedicine platform connecting rural patients with specialist doctors, improving healthcare access for 100,000+ patients."
+      image: "https://www.kuttukaranpoly.com/wp-content/uploads/2024/06/0012.jpg",
+      title: "example iedc",
+      description: "example iedc of success stories."
     },
     {
       id: 4,
-      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "EduNext Platform",
-      description: "Personalized learning platform using AI to adapt to individual student needs, improving learning outcomes by 60% globally."
+      image: "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/DSC05414-scaled.jpg",
+      title: "IEDC",
+      description: "iedc success stories two"
     },
     {
       id: 5,
-      image: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "FinTech Innovators",
-      description: "Digital banking solution for rural communities, providing financial services to 500,000+ previously unbanked individuals."
+      image: "https://www.kuttukaranpoly.com/wp-content/uploads/2023/06/inaugration.webp",
+      title: "Inauguration",
+      description: "Inauguration of IEDC "
     },
-     {
-      id: 5,
-      image: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "FinTech Innovators",
-      description: "Digital banking solution for rural communities, providing financial services to 500,000+ previously unbanked individuals."
-    }
+  
   ];
 
   // Auto-slide functionality
