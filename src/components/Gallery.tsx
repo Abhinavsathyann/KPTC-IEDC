@@ -19,82 +19,138 @@ const Gallery: React.FC = () => {
       description: "Students presenting innovative business ideas to industry experts"
     },
     {
-      src: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/EVENTS2.jpg",
       alt: "Innovation Workshop",
       title: "AI/ML Innovation Workshop",
       date: "February 2024",
       description: "Hands-on workshop on artificial intelligence and machine learning"
     },
     {
-      src: "https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/EVENTS3.jpg",
       alt: "Hackathon Event",
       title: "48-Hour Hackathon Challenge",
       date: "January 2024",
       description: "Intensive coding competition with participants from various departments"
     },
     {
-      src: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/EVENTS4.jpg",
       alt: "Mentorship Program",
       title: "Industry Mentorship Program Launch",
       date: "December 2023",
       description: "Connecting students with industry professionals for guidance"
     },
     {
-      src: "https://images.pexels.com/photos/7688120/pexels-photo-7688120.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/NEC2023.jpg",
       alt: "Startup Showcase",
       title: "Student Startup Showcase",
       date: "November 2023",
       description: "Showcasing innovative student-led startup projects"
     },
     {
-      src: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/NEC2023LOGO.jpg",
       alt: "Entrepreneurship Seminar",
       title: "Entrepreneurship Leadership Seminar",
       date: "October 2023",
       description: "Leadership skills development for aspiring entrepreneurs"
     },
     {
-      src: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/NEC2023QUALIFIED.jpg",
       alt: "Innovation Lab",
       title: "IEDC Innovation Lab Opening",
       date: "September 2023",
       description: "State-of-the-art innovation laboratory inauguration ceremony"
     },
     {
-      src: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/NEC2024TEAM.jpg",
       alt: "Team Building",
       title: "Team Building Workshop",
       date: "August 2023",
       description: "Building stronger connections within the IEDC community"
     },
     {
-      src: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/NEC2024TEAM(1).jpg",
       alt: "Tech Conference",
       title: "Annual Tech Innovation Conference",
       date: "July 2023",
       description: "Bringing together tech leaders and innovators from industry"
     },
     {
-      src: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/ESUMMIT24.jpg",
       alt: "Blockchain Workshop",
       title: "Blockchain Technology Workshop",
       date: "June 2023",
       description: "Understanding blockchain and cryptocurrency technologies"
     },
     {
-      src: "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/ESUMMIT24-2.jpg",
       alt: "Mobile App Hackathon",
       title: "Mobile App Development Hackathon",
       date: "May 2023",
       description: "Creating innovative mobile applications in limited time"
     },
     {
-      src: "https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/assets/photos/ESUMMIT25.jpg",
       alt: "Healthcare Innovation",
       title: "Healthcare Innovation Challenge",
       date: "April 2023",
       description: "Developing solutions for healthcare challenges and problems"
-    }
+    },
+     {
+      src: "/assets/photos/ESUMMIT25-10.jpg",
+      alt: "Healthcare Innovation",
+      title: "Healthcare Innovation Challenge",
+      date: "April 2023",
+      description: "Developing solutions for healthcare challenges and problems"
+    },
+     {
+      src: "/assets/photos/ESUMMIT25-2.jpg",
+      alt: "Healthcare Innovation",
+      title: "Healthcare Innovation Challenge",
+      date: "April 2023",
+      description: "Developing solutions for healthcare challenges and problems"
+    },
+     {
+      src: "/assets/photos/ESUMMIT25-9.jpg",
+      alt: "Healthcare Innovation",
+      title: "Healthcare Innovation Challenge",
+      date: "April 2023",
+      description: "Developing solutions for healthcare challenges and problems"
+    },
+     {
+      src: "/assets/photos/CELLUNIT2024-9.jpg",
+      alt: "Healthcare Innovation",
+      title: "Healthcare Innovation Challenge",
+      date: "April 2023",
+      description: "Developing solutions for healthcare challenges and problems"
+    },
+     {
+      src: "/assets/photos/CELLUNIT2024-8.jpg",
+      alt: "Healthcare Innovation",
+      title: "Healthcare Innovation Challenge",
+      date: "April 2023",
+      description: "Developing solutions for healthcare challenges and problems"
+    },
+     {
+      src: "/assets/photos/CELLUNIT2024-1.jpg",
+      alt: "Healthcare Innovation",
+      title: "Healthcare Innovation Challenge",
+      date: "April 2023",
+      description: "Developing solutions for healthcare challenges and problems"
+    },
+     {
+      src: "/assets/photos/CELLUNIT2024-3.jpg",
+      alt: "Healthcare Innovation",
+      title: "Healthcare Innovation Challenge",
+      date: "April 2023",
+      description: "Developing solutions for healthcare challenges and problems"
+    },
+     {
+      src: "/assets/photos/CELLUNIT2024-2.jpg",
+      alt: "Healthcare Innovation",
+      title: "Healthcare Innovation Challenge",
+      date: "April 2023",
+      description: "Developing solutions for healthcare challenges and problems"
+    },
   ];
 
   return (
