@@ -63,7 +63,8 @@ const Footer: React.FC = () => {
                 
                 {/* Newsletter Signup */}
                 <div className="mb-6">
-                  <h4 className="text-lg font-semibold mb-3">Stay Updated</h4>
+                  <h4 className="text-xl font-semibold mb-1">Stay Updated</h4>
+                  <p className="text-red mb-3">Comming soon</p>
                   <div className="flex">
                     <input
                       type="email"
