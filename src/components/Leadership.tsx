@@ -47,8 +47,7 @@ const Leadership: React.FC = () => {
       id: 4,
       name: "Dr. T Dhanalakshmi",
       position: "Academic Advisor",
-      image:
-        "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/assets/photos/AA.jpg",
       email: "aa@kuttukaranpoly.com",
       phone: "#",
       linkedin: "#",
@@ -60,7 +59,7 @@ const Leadership: React.FC = () => {
       name: "Mr. Ebin petter",
       position: "IEDC Coordinator",
       image:
-        "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "/assets/photos/EbinSir.jpg",
       email: "dean.research@college.edu",
       phone: "+1 (555) 123-4569",
       linkedin: "https://linkedin.com/in/amitpatel",
