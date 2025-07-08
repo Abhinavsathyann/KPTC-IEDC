@@ -36,7 +36,7 @@ const Leadership: React.FC = () => {
       name: "Mr. Sandeep",
       position: "Dean",
       image:
-        "/assets/photos/Anush.png",
+        "",
       email: "#",
       phone: "#",
       linkedin: "#",
