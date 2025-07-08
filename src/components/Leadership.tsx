@@ -36,7 +36,7 @@ const Leadership: React.FC = () => {
       name: "Mr. Sandeep",
       position: "Dean",
       image:
-        "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "/assets/photos/Anush.png",
       email: "#",
       phone: "#",
       linkedin: "#",
