@@ -60,9 +60,9 @@ const Leadership: React.FC = () => {
       position: "IEDC Coordinator",
       image:
         "/assets/photos/EbinSir.jpg",
-      email: "dean.research@college.edu",
-      phone: "+1 (555) 123-4569",
-      linkedin: "https://linkedin.com/in/amitpatel",
+      email: "#",
+      phone: "#",
+      linkedin: "#",
       message:
         "Research and innovation are the cornerstones of progress. Our mission is to create an ecosystem where groundbreaking research flourishes, where students and faculty collaborate to solve real-world problems, and where innovation becomes a way of life.",
     },
