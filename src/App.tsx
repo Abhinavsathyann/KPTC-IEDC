@@ -108,7 +108,7 @@ function App() {
             transition={{ delay: 1 }}
             className="text-white/100"
           >
-            This website is optimized for desktop. For the best experience, mobile users are advised to enable the desktop site
+            This website is optimized for desktop.
           </motion.p>
         </div>
       </div>
