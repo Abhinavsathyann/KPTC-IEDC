@@ -24,7 +24,7 @@ function App() {
     // Simulate loading time
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 5000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -83,7 +83,7 @@ function App() {
         <div className="text-center">
           <motion.div
             animate={{ rotate: 360 }}
-            transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
+            transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
             className="w-16 h-16 border-4 border-white border-t-transparent rounded-full mx-auto mb-4"
           />
           <motion.h1
@@ -101,6 +101,14 @@ function App() {
             className="text-white/80"
           >
             Loading Innovation...
+          </motion.p>
+           <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1 }}
+            className="text-white/100"
+          >
+            This website is optimized for desktop. For the best experience, mobile users are advised to enable the desktop site
           </motion.p>
         </div>
       </div>
