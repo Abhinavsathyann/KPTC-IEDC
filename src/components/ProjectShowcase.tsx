@@ -15,8 +15,8 @@ const ProjectShowcase: React.FC = () => {
       title: 'EcoTrack AI',
       description: 'AI-powered environmental monitoring system that tracks air quality and predicts pollution levels using machine learning algorithms and IoT sensors.',
       image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: 'https://github.com/example/ecotrack',
-      demo: 'https://ecotrack-demo.com',
+      github: '',
+      demo: '',
       year: '2024'
     },
     {
@@ -24,18 +24,18 @@ const ProjectShowcase: React.FC = () => {
       title: 'HealthBot Assistant',
       description: 'Intelligent chatbot providing personalized health recommendations and symptom analysis using natural language processing and medical databases.',
       image: 'https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: 'https://github.com/example/healthbot',
-      demo: 'https://healthbot-demo.com',
-      year: '2024'
+      github: '',
+      demo: '',
+      year: '2023'
     },
     {
       id: 3,
       title: 'SmartCampus Platform',
       description: 'Comprehensive web platform for campus management, student services, and academic tracking with real-time notifications and analytics.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: 'https://github.com/example/smartcampus',
-      demo: 'https://smartcampus-demo.com',
-      year: '2023'
+      github: '',
+      demo: '',
+      year: '2022'
     }
   ];
 

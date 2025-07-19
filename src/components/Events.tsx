@@ -30,26 +30,26 @@ const Events: React.FC = () => {
     }
   ];
 
-  const pastEvents = [
-    {
-      title: "Hackathon 2023",
-      description: "48-hour intensive coding competition developing solutions for real-world problems.",
-      date: "November 2023",
-      image: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=800"
-    },
-    {
-      title: "Entrepreneurship Summit",
-      description: "Two-day summit featuring keynote speakers, panel discussions, and networking sessions with successful entrepreneurs.",
-      date: "October 2023",
-      image: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-    },
-    {
-      title: "Innovation Fair",
-      description: "Showcase of student projects and startup prototypes, highlighting creativity and innovation within our community.",
-      date: "September 2023",
-      image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800"
-    }
-  ];
+  // const pastEvents = [
+  //   {
+  //     title: "Hackathon 2023",
+  //     description: "48-hour intensive coding competition developing solutions for real-world problems.",
+  //     date: "November 2023",
+  //     image: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=800"
+  //   },
+  //   {
+  //     title: "Entrepreneurship Summit",
+  //     description: "Two-day summit featuring keynote speakers, panel discussions, and networking sessions with successful entrepreneurs.",
+  //     date: "October 2023",
+  //     image: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
+  //   },
+  //   {
+  //     title: "Innovation Fair",
+  //     description: "Showcase of student projects and startup prototypes, highlighting creativity and innovation within our community.",
+  //     date: "September 2023",
+  //     image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800"
+  //   }
+  // ];
 
   return (
     <section id="events" className="py-20 bg-white dark:bg-gray-800">
@@ -61,10 +61,10 @@ const Events: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Upcoming <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Events</span>
+            Past <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Events</span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Join us for exciting events designed to inspire, educate, and connect the entrepreneurial community
+            We hosted a series of exciting events that inspired, educated, and connected the entrepreneurial community
           </p>
         </motion.div>
 
@@ -101,7 +101,7 @@ const Events: React.FC = () => {
           </div>
         </div>
 
-        {/* Past Events */}
+        {/* Past Events
         <div>
           <motion.h3
             initial={{ opacity: 0, x: -50 }}
@@ -138,7 +138,7 @@ const Events: React.FC = () => {
               </motion.div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
