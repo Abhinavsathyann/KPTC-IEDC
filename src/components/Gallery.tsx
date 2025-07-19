@@ -13,143 +13,143 @@ const Gallery: React.FC = () => {
   const galleryImages = [
     {
      src: "/assets/photos/events1.jpg",
-      alt: "Startup Pitch Competition",
-      title: "Annual Startup Pitch Competition 2024",
-      date: "March 2024",
-      description: "Students presenting innovative business ideas to industry experts"
+      // alt: "Startup Pitch Competition",
+      // title: "Annual Startup Pitch Competition 2024",
+      // date: "March 2024",
+      // description: "Students presenting innovative business ideas to industry experts"
     },
     {
       src: "/assets/photos/EVENTS2.jpg",
-      alt: "Innovation Workshop",
-      title: "AI/ML Innovation Workshop",
-      date: "February 2024",
-      description: "Hands-on workshop on artificial intelligence and machine learning"
+      // alt: "Innovation Workshop",
+      // title: "AI/ML Innovation Workshop",
+      // date: "February 2024",
+      // description: "Hands-on workshop on artificial intelligence and machine learning"
     },
     {
       src: "/assets/photos/EVENTS3.jpg",
-      alt: "Hackathon Event",
-      title: "48-Hour Hackathon Challenge",
-      date: "January 2024",
-      description: "Intensive coding competition with participants from various departments"
+      // alt: "Hackathon Event",
+      // title: "48-Hour Hackathon Challenge",
+      // date: "January 2024",
+      // description: "Intensive coding competition with participants from various departments"
     },
     {
       src: "/assets/photos/EVENTS4.jpg",
-      alt: "Mentorship Program",
-      title: "Industry Mentorship Program Launch",
-      date: "December 2023",
-      description: "Connecting students with industry professionals for guidance"
+      // alt: "Mentorship Program",
+      // title: "Industry Mentorship Program Launch",
+      // date: "December 2023",
+      // description: "Connecting students with industry professionals for guidance"
     },
     {
       src: "/assets/photos/NEC2023.jpg",
-      alt: "Startup Showcase",
-      title: "Student Startup Showcase",
-      date: "November 2023",
-      description: "Showcasing innovative student-led startup projects"
+      // alt: "Startup Showcase",
+      // title: "Student Startup Showcase",
+      // date: "November 2023",
+      // description: "Showcasing innovative student-led startup projects"
     },
     {
       src: "/assets/photos/NEC2023LOGO.jpg",
-      alt: "Entrepreneurship Seminar",
-      title: "Entrepreneurship Leadership Seminar",
-      date: "October 2023",
-      description: "Leadership skills development for aspiring entrepreneurs"
+      // alt: "Entrepreneurship Seminar",
+      // title: "Entrepreneurship Leadership Seminar",
+      // date: "October 2023",
+      // description: "Leadership skills development for aspiring entrepreneurs"
     },
     {
       src: "/assets/photos/NEC2023QUALIFIED.jpg",
-      alt: "Innovation Lab",
-      title: "IEDC Innovation Lab Opening",
-      date: "September 2023",
-      description: "State-of-the-art innovation laboratory inauguration ceremony"
+      // alt: "Innovation Lab",
+      // title: "IEDC Innovation Lab Opening",
+      // date: "September 2023",
+      // description: "State-of-the-art innovation laboratory inauguration ceremony"
     },
     {
       src: "/assets/photos/NEC2024TEAM.jpg",
-      alt: "Team Building",
-      title: "Team Building Workshop",
-      date: "August 2023",
-      description: "Building stronger connections within the IEDC community"
+      // alt: "Team Building",
+      // title: "Team Building Workshop",
+      // date: "August 2023",
+      // description: "Building stronger connections within the IEDC community"
     },
     {
       src: "/assets/photos/NEC2024TEAM(1).jpg",
-      alt: "Tech Conference",
-      title: "Annual Tech Innovation Conference",
-      date: "July 2023",
-      description: "Bringing together tech leaders and innovators from industry"
+      // alt: "Tech Conference",
+      // title: "Annual Tech Innovation Conference",
+      // date: "July 2023",
+      // description: "Bringing together tech leaders and innovators from industry"
     },
      {
       src: "/assets/photos/NEC2024LOGO.jpg",
-      alt: "Healthcare Innovation",
-      title: "Healthcare Innovation Challenge",
-      date: "April 2023",
-      description: "Developing solutions for healthcare challenges and problems"
+      // alt: "Healthcare Innovation",
+      // title: "Healthcare Innovation Challenge",
+      // date: "April 2023",
+      // description: "Developing solutions for healthcare challenges and problems"
     },
     {
       src: "/assets/photos/ESUMMIT24.jpg",
-      alt: "Blockchain Workshop",
-      title: "Blockchain Technology Workshop",
-      date: "June 2023",
-      description: "Understanding blockchain and cryptocurrency technologies"
+      // alt: "Blockchain Workshop",
+      // title: "Blockchain Technology Workshop",
+      // date: "June 2023",
+      // description: "Understanding blockchain and cryptocurrency technologies"
     },
     {
       src: "/assets/photos/ESUMMIT24-2.jpg",
-      alt: "Mobile App Hackathon",
-      title: "Mobile App Development Hackathon",
-      date: "May 2023",
-      description: "Creating innovative mobile applications in limited time"
+      // alt: "Mobile App Hackathon",
+      // title: "Mobile App Development Hackathon",
+      // date: "May 2023",
+      // description: "Creating innovative mobile applications in limited time"
     },
     {
       src: "/assets/photos/ESUMMIT25.jpg",
-      alt: "Healthcare Innovation",
-      title: "Healthcare Innovation Challenge",
-      date: "April 2023",
-      description: "Developing solutions for healthcare challenges and problems"
+      // alt: "Healthcare Innovation",
+      // title: "Healthcare Innovation Challenge",
+      // date: "April 2023",
+      // description: "Developing solutions for healthcare challenges and problems"
     },
      {
       src: "/assets/photos/ESUMMIT25-10.jpg",
-      alt: "Healthcare Innovation",
-      title: "Healthcare Innovation Challenge",
-      date: "April 2023",
-      description: "Developing solutions for healthcare challenges and problems"
+      // alt: "Healthcare Innovation",
+      // title: "Healthcare Innovation Challenge",
+      // date: "April 2023",
+      // description: "Developing solutions for healthcare challenges and problems"
     },
      {
       src: "/assets/photos/ESUMMIT25-2.jpg",
-      alt: "Healthcare Innovation",
-      title: "Healthcare Innovation Challenge",
-      date: "April 2023",
-      description: "Developing solutions for healthcare challenges and problems"
+      // alt: "Healthcare Innovation",
+      // title: "Healthcare Innovation Challenge",
+      // date: "April 2023",
+      // description: "Developing solutions for healthcare challenges and problems"
     },
      {
       src: "/assets/photos/ESUMMIT25-9.jpg",
-      alt: "Healthcare Innovation",
-      title: "Healthcare Innovation Challenge",
-      date: "April 2023",
-      description: "Developing solutions for healthcare challenges and problems"
+      // alt: "Healthcare Innovation",
+      // title: "Healthcare Innovation Challenge",
+      // date: "April 2023",
+      // description: "Developing solutions for healthcare challenges and problems"
     },
      {
       src: "/assets/photos/CELLUNIT2024-9.jpg",
-      alt: "Healthcare Innovation",
-      title: "Healthcare Innovation Challenge",
-      date: "April 2023",
-      description: "Developing solutions for healthcare challenges and problems"
+      // alt: "Healthcare Innovation",
+      // title: "Healthcare Innovation Challenge",
+      // date: "April 2023",
+      // description: "Developing solutions for healthcare challenges and problems"
     },
      {
       src: "/assets/photos/CELLUNIT2024-1.jpg",
-      alt: "Healthcare Innovation",
-      title: "Healthcare Innovation Challenge",
-      date: "April 2023",
-      description: "Developing solutions for healthcare challenges and problems"
+      // alt: "Healthcare Innovation",
+      // title: "Healthcare Innovation Challenge",
+      // date: "April 2023",
+      // description: "Developing solutions for healthcare challenges and problems"
     },
      {
       src: "/assets/photos/CELLUNIT2024-3.jpg",
-      alt: "Healthcare Innovation",
-      title: "Healthcare Innovation Challenge",
-      date: "April 2023",
-      description: "Developing solutions for healthcare challenges and problems"
+      // alt: "Healthcare Innovation",
+      // title: "Healthcare Innovation Challenge",
+      // date: "April 2023",
+      // description: "Developing solutions for healthcare challenges and problems"
     },
      {
       src: "/assets/photos/CELLUNIT2024-2.jpg",
-      alt: "Healthcare Innovation",
-      title: "Healthcare Innovation Challenge",
-      date: "April 2023",
-      description: "Developing solutions for healthcare challenges and problems"
+      // alt: "Healthcare Innovation",
+      // title: "Healthcare Innovation Challenge",
+      // date: "April 2023",
+      // description: "Developing solutions for healthcare challenges and problems"
     },
   ];
 
