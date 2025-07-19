@@ -20,7 +20,7 @@ const Team: React.FC = () => {
      {
        id: 2,
        name: "Manuvel",
-       role: "Memberr",
+       role: "Member",
       //  department: "Electronics & Communication",
       //  email: "priya.patel@student.college.edu",
       //  linkedin: "https://linkedin.com/in/priyapatel",
