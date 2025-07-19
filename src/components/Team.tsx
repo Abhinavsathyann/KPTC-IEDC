@@ -57,8 +57,8 @@ const Team: React.FC = () => {
       name: "Abhinav K",
       role: "Leader",
       department: "Computer Engineering",   
-      email: "vikram.singh@student.college.edu",
-      linkedin: "https://linkedin.com/in/vikramsingh",
+      email: "Abhinavksathyann@gmail.com",
+      linkedin: "https://www.linkedin.com/in/abhinavksathyan",
       image:
         "/assets/photos/Abhinav.jpg",
     },
