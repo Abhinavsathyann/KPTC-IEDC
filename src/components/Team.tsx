@@ -239,7 +239,7 @@ const Team: React.FC = () => {
   ];
 
   const yearOptions = [
-    { value: "2025-26", label: "Members 2025-26", members: members2025_26 },
+    { value: "2025-26", label: "Members 2025-26 (Current)",  members: members2025_26 },
     { value: "2024-25", label: "Members 2024-25", members: members2024_25 },
    { value: "2023-24", label: "Members 2023-24", members: members2023_24 },
   ];
