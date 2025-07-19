@@ -21,7 +21,7 @@ const SuccessStories: React.FC = () => {
     {
       id: 2,
       image: "/assets/photos/MEETMYTEAM25.png",
-      title: "Meet My Team 2025",
+      title: "Meet our Team",
       // description: "iedc example of success stories."
     },
     {
