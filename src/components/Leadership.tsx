@@ -17,7 +17,7 @@ const Leadership: React.FC = () => {
       phone: "#",
       linkedin: "#",
       message:
-        "At Kuttukaran Polytechnic College, we proudly build on the legacy of one of South India’s largest and most respected automobile dealership groups. Established on March 21, 2022, through the acquisition of Matha College of Technology, we offer programs in Automobile, Mechanical, Electrical and Electronics, Civil, and Computer Engineering. We are committed to nurturing young minds through strong theoretical foundations and hands-on learning. Alongside academics, we emphasize extracurricular activities, industry interactions, and internships to develop well-rounded, industry-ready graduates. With Kuttukaran’s proven 80-year legacy and the support of our faculty, management, parents, and stakeholders, we aim to empower students with skills, knowledge, and values for employability and entrepreneurship.",
+        "At Kuttukaran Polytechnic College, we believe innovation is the key to a brighter future. The Innovation and Entrepreneurship Development Cell (IEDC) stands as a beacon of creativity, empowering students to convert their ideas into impactful solutions. IEDC fosters a culture of innovation, research, and entrepreneurship. I congratulate the entire team for their active efforts in shaping tomorrow’s leaders.",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const Leadership: React.FC = () => {
       phone: "#",
       linkedin: "#",
       message:
-        "Welcome to Kuttukaran Polytechnic College, where we are dedicated to edifying, empowering, and exploring the potential of every student. Our vision is to transform capabilities into competencies through rigorous academics, practical training, and industry-relevant curriculum. Rooted in the legacy of the automobile industry, we focus on skill development, employability, and staying aligned with the latest trends through strong industry partnerships. Our dedicated faculty ensures that students receive the best guidance on their journey toward excellence. Join us at KPTC — discover your potential, build valuable skills, and unlock a world of opportunities.",
+        "IEDC plays a pivotal role in nurturing young minds and guiding them towards entrepreneurship and leadership. It is heartening to see our students take initiative, build teams, and represent our college at national platforms. I encourage all students to make the best use of this platform and transform their ideas into reality.",
     },
     {
       id: 3,
@@ -41,7 +41,7 @@ const Leadership: React.FC = () => {
       phone: "#",
       linkedin: "#",
       message:
-        "Research and innovation are the cornerstones of progress. Our mission is to create an ecosystem where groundbreaking research flourishes, where students and faculty collaborate to solve real-world problems, and where innovation becomes a way of life.",
+        "Innovation is not just about new ideas it's about developing the mindset to question the norm. Our IEDC ensures that students are given the right ecosystem to think creatively, work collaboratively, and execute fearlessly. The academic team fully supports this initiative as it aligns with the skill-driven future we envision for our students",
     },
     {
       id: 4,
@@ -52,7 +52,7 @@ const Leadership: React.FC = () => {
       phone: "#",
       linkedin: "#",
       message:
-        "Research and innovation are the cornerstones of progress. Our mission is to create an ecosystem where groundbreaking research flourishes, where students and faculty collaborate to solve real-world problems, and where innovation becomes a way of life.",
+        "The IEDC is more than a club it’s a movement that encourages learning beyond textbooks. Through this platform, students gain exposure to real-world challenges and industry expectations. I am proud to guide and mentor students through this exciting journey of entrepreneurship and innovation.",
     },
     {
       id: 5,
@@ -64,7 +64,7 @@ const Leadership: React.FC = () => {
       phone: "#",
       linkedin: "#",
       message:
-        "Research and innovation are the cornerstones of progress. Our mission is to create an ecosystem where groundbreaking research flourishes, where students and faculty collaborate to solve real-world problems, and where innovation becomes a way of life.",
+        "As the Coordinator of IEDC, I am thrilled to witness the incredible enthusiasm our students bring to the world of innovation. From ideation to execution, our goal is to support and mentor every aspiring entrepreneur. Together, we aim to create a sustainable and dynamic startup ecosystem within the college.",
     },
   ];
 
