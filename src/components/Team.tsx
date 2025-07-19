@@ -60,7 +60,7 @@ const Team: React.FC = () => {
       email: "vikram.singh@student.college.edu",
       linkedin: "https://linkedin.com/in/vikramsingh",
       image:
-        "/assets/photos/",
+        "/assets/photos/Abhinav.jpg",
     },
     {
       id: 9,
