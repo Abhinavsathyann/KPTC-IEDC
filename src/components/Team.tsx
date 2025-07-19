@@ -149,7 +149,7 @@ const Team: React.FC = () => {
     {
       id: 9,
       name: "Shaham Mubeen MS",
-      role: "Member",
+      role: "Leader",
       department: "Computer Engineering",   
       email: "mubeenshaham9846@gmail.com",
       linkedin: "https://www.linkedin.com/in/shaham-mubeen-a02517368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
