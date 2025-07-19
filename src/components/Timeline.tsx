@@ -64,8 +64,8 @@ const Timeline: React.FC = () => {
     },
     {
       year: '2025',
-      title: 'International Recognition',
-      description: 'IEDC received the "Best Innovation Cell" award from the Ministry of Education for outstanding contributions.',
+      title: 'NEC 2025 Team Established',
+      description: 'Formed and onboarded the official team to represent our institution in the National Entrepreneurship Challenge 2025 by E-Cell, IIT Bombay.',
       icon: Award,
       color: 'from-green-500 to-emerald-500'
     },
