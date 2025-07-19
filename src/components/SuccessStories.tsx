@@ -14,15 +14,15 @@ const SuccessStories: React.FC = () => {
   const stories = [
     {
       id: 1,
-      image: "https://www.kuttukaranpoly.com/wp-content/uploads/2024/06/mvd_session_02.jpg",
-      title: "mvd session",
-      description: "mvd session."
+      image: "/assets/photos/NECteam25.jpeg",
+      title: "NEC 2025 Team",
+      description: "Formed and onboarded the official team to represent our institution in the National Entrepreneurship Challenge 2025 by E-Cell, IIT Bombay."
     },
     {
       id: 2,
-      image: "https://www.kuttukaranpoly.com/wp-content/uploads/2024/06/0014-scaled.jpg",
-      title: "IEDC example",
-      description: "iedc example of success stories."
+      image: "/assets/photos/MEETMYTEAM25.png",
+      title: "Meet My Team 2025",
+      // description: "iedc example of success stories."
     },
     {
       id: 3,
