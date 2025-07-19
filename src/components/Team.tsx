@@ -5,55 +5,65 @@ import { Mail, Linkedin, Github, Calendar, ChevronDown } from "lucide-react";
 const Team: React.FC = () => {
   const [selectedYear, setSelectedYear] = useState("2025-26");
 
-  // const members2023_24 = [
-  //   {
-  //     id: 1,
-  //     name: "Alex Thompson",
-  //     role: "Student Coordinator",
-  //     department: "Computer Science",
-  //     email: "alex.thompson@student.college.edu",
-  //     linkedin: "https://linkedin.com/in/alexthompson",
-  //     github: "https://github.com/alexthompson",
-  //     image:
-  //       "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Priya Patel",
-  //     role: "Events Coordinator",
-  //     department: "Electronics & Communication",
-  //     email: "priya.patel@student.college.edu",
-  //     linkedin: "https://linkedin.com/in/priyapatel",
-  //     image:
-  //       "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400",
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "David Rodriguez",
-  //     role: "Technical Coordinator",
-  //     department: "Information Technology",
-  //     email: "david.rodriguez@student.college.edu",
-  //     linkedin: "https://linkedin.com/in/davidrodriguez",
-  //     github: "https://github.com/davidrodriguez",
-  //     image:
-  //       "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
-  //   },
-  //   {
-  //     id: 4,
-  //     name: "Emily Zhang",
-  //     role: "Marketing Coordinator",
-  //     department: "Business Administration",
-  //     email: "emily.zhang@student.college.edu",
-  //     linkedin: "https://linkedin.com/in/emilyzhang",
-  //     twitter: "https://twitter.com/emilyzhang",
-  //     image:
-  //       "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=400",
-  //   },
-  // ];
-
-  const members2024_25 = [
+   const members2023_24 = [
      {
-      id: 1,
+       id: 1,
+       name: "Asfin",
+       role: "Member",
+      //  department: "Computer Science",
+      //  email: "alex.thompson@student.college.edu",
+      //  linkedin: "https://linkedin.com/in/alexthompson",
+      //  github: "https://github.com/alexthompson",
+       image:
+         "/assets/photos/Asfin.jpg",
+     },
+     {
+       id: 2,
+       name: "Manuvel",
+       role: "Memberr",
+      //  department: "Electronics & Communication",
+      //  email: "priya.patel@student.college.edu",
+      //  linkedin: "https://linkedin.com/in/priyapatel",
+       image:
+         "/assets/photos/Manuvel.jpg",
+     },
+     {
+       id: 3,
+       name: "Shafeek",
+       role: "Member",
+      //  department: "Information Technology",
+      //  email: "david.rodriguez@student.college.edu",
+      //  linkedin: "https://linkedin.com/in/davidrodriguez",
+      //  github: "https://github.com/davidrodriguez",
+       image:
+         "/assets/photos/Shafeek.jpg",
+     },
+     {
+       id: 4,
+       name: "Sreejesh",
+       role: "Member",
+      //  department: "Business Administration",
+      //  email: "emily.zhang@student.college.edu",
+      //  linkedin: "https://linkedin.com/in/emilyzhang",
+      //  twitter: "https://twitter.com/emilyzhang",
+       image:
+         "/assets/photos/Sreejesh.jpg",
+     },
+      {
+       id: 5,
+       name: "Sreekanth",
+       role: "Member",
+      //  department: "Business Administration",
+      //  email: "emily.zhang@student.college.edu",
+      //  linkedin: "https://linkedin.com/in/emilyzhang",
+      //  twitter: "https://twitter.com/emilyzhang",
+       image:
+         "/assets/photos/",
+     },
+   ];
+  const members2024_25 = [
+    {
+     id: 6,
       name: "Abhinav K",
       role: "Leader",
       department: "Computer Engineering",   
@@ -231,7 +241,7 @@ const Team: React.FC = () => {
   const yearOptions = [
     { value: "2025-26", label: "Members 2025-26", members: members2025_26 },
     { value: "2024-25", label: "Members 2024-25", members: members2024_25 },
-    // { value: "2023-24", label: "Members 2023-24", members: members2023_24 },
+   { value: "2023-24", label: "Members 2023-24", members: members2023_24 },
   ];
 
   const currentMembers =
