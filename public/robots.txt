@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kptciedc.vercel.app/sitemap.xml
