@@ -5,145 +5,234 @@ import { Mail, Linkedin, Github, Calendar, ChevronDown } from "lucide-react";
 const Team: React.FC = () => {
   const [selectedYear, setSelectedYear] = useState("2025-26");
 
-  const members2023_24 = [
-    {
-      id: 1,
-      name: "Alex Thompson",
-      role: "Student Coordinator",
-      department: "Computer Science",
-      email: "alex.thompson@student.college.edu",
-      linkedin: "https://linkedin.com/in/alexthompson",
-      github: "https://github.com/alexthompson",
-      image:
-        "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
-    },
-    {
-      id: 2,
-      name: "Priya Patel",
-      role: "Events Coordinator",
-      department: "Electronics & Communication",
-      email: "priya.patel@student.college.edu",
-      linkedin: "https://linkedin.com/in/priyapatel",
-      image:
-        "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400",
-    },
-    {
-      id: 3,
-      name: "David Rodriguez",
-      role: "Technical Coordinator",
-      department: "Information Technology",
-      email: "david.rodriguez@student.college.edu",
-      linkedin: "https://linkedin.com/in/davidrodriguez",
-      github: "https://github.com/davidrodriguez",
-      image:
-        "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
-    },
-    {
-      id: 4,
-      name: "Emily Zhang",
-      role: "Marketing Coordinator",
-      department: "Business Administration",
-      email: "emily.zhang@student.college.edu",
-      linkedin: "https://linkedin.com/in/emilyzhang",
-      twitter: "https://twitter.com/emilyzhang",
-      image:
-        "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=400",
-    },
-  ];
+  // const members2023_24 = [
+  //   {
+  //     id: 1,
+  //     name: "Alex Thompson",
+  //     role: "Student Coordinator",
+  //     department: "Computer Science",
+  //     email: "alex.thompson@student.college.edu",
+  //     linkedin: "https://linkedin.com/in/alexthompson",
+  //     github: "https://github.com/alexthompson",
+  //     image:
+  //       "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "Priya Patel",
+  //     role: "Events Coordinator",
+  //     department: "Electronics & Communication",
+  //     email: "priya.patel@student.college.edu",
+  //     linkedin: "https://linkedin.com/in/priyapatel",
+  //     image:
+  //       "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400",
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "David Rodriguez",
+  //     role: "Technical Coordinator",
+  //     department: "Information Technology",
+  //     email: "david.rodriguez@student.college.edu",
+  //     linkedin: "https://linkedin.com/in/davidrodriguez",
+  //     github: "https://github.com/davidrodriguez",
+  //     image:
+  //       "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
+  //   },
+  //   {
+  //     id: 4,
+  //     name: "Emily Zhang",
+  //     role: "Marketing Coordinator",
+  //     department: "Business Administration",
+  //     email: "emily.zhang@student.college.edu",
+  //     linkedin: "https://linkedin.com/in/emilyzhang",
+  //     twitter: "https://twitter.com/emilyzhang",
+  //     image:
+  //       "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=400",
+  //   },
+  // ];
 
   const members2024_25 = [
-    {
-      id: 5,
-      name: "Rahul Sharma",
-      role: "Student Coordinator",
-      department: "Computer Science",
-      email: "rahul.sharma@student.college.edu",
-      linkedin: "https://linkedin.com/in/rahulsharma",
-      github: "https://github.com/rahulsharma",
+     {
+      id: 1,
+      name: "Abhinav K",
+      role: "Leader",
+      department: "Computer Engineering",   
+      email: "vikram.singh@student.college.edu",
+      linkedin: "https://linkedin.com/in/vikramsingh",
       image:
-        "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "/assets/photos/",
     },
     {
-      id: 6,
-      name: "Sneha Reddy",
-      role: "Research Coordinator",
+      id: 9,
+      name: "Shaham Mubeen",
+      role: "Leader",
+      department: "Computer Engineering",   
+      email: "vikram.singh@student.college.edu",
+      linkedin: "https://linkedin.com/in/vikramsingh",
+      image:
+        "/assets/photos/Shaham.jpeg",
+    },
+    {
+      id: 10,
+      name: "Amal Jith",
+      role: "Member",
+      department: "Mechnaical Engineering",
+      // email: "ananya.gupta@student.college.edu",
+      linkedin: "https://linkedin.com/in/ananyagupta",
+      image:
+        "/assets/photos/AmalJith.jpg",
+    },
+    {
+      id: 11,
+      name: "Aju Vincent",
+      role: "Member",
+      department: "Automobile Engineering",
+      // email: "rohan.mehta@student.college.edu",
+      linkedin: "https://linkedin.com/in/rohanmehta",
+      // twitter: "https://twitter.com/rohanmehta",
+      image:
+        "/assets/photos/Aju.jpg",
+    },
+    {
+      id: 12,
+      name: "Alen charly",
+      role: "Member",
       department: "Mechanical Engineering",
-      email: "sneha.reddy@student.college.edu",
-      linkedin: "https://linkedin.com/in/snehareddy",
+      // email: "ishita.jain@student.college.edu",
+      linkedin: "",
       image:
-        "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "/assets/photos/Alen.jpg",
+    },
+    //    {
+    //   id: 13,
+    //   name: "AmalKrishna",
+    //   role: "Member",
+    //   department: "Mechanical Engineering",
+    //   // email: "ishita.jain@student.college.edu",
+    //   linkedin: "",
+    //   image:
+    //     "/assets/photos/Amal.jpg",
+    // },
+    //    {
+    //   id: 14,
+    //   name: "Anandhu",
+    //   role: "Member",
+    //   department: "Automobile Engineering",
+    //   // email: "ishita.jain@student.college.edu",
+    //   linkedin: "",
+    //   image:
+    //     "/assets/photos/Anandhu.jpg",
+    // },
+     {
+      id: 15,
+      name: "Bijo",
+      role: "Member",
+      department: "Automobile Engineering",
+      // email: "ishita.jain@student.college.edu",
+      linkedin: "",
+      image:
+        "/assets/photos/BIJO.jpg",
     },
     {
-      id: 7,
-      name: "Arjun Kumar",
-      role: "Finance Coordinator",
-      department: "Economics",
-      email: "arjun.kumar@student.college.edu",
-      linkedin: "https://linkedin.com/in/arjunkumar",
+      id: 16,
+      name: "Devid",
+      role: "Member",
+      department: "Automobile Engineering",
+      // email: "ishita.jain@student.college.edu",
+      linkedin: "",
       image:
-        "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400",
-    },
-    {
-      id: 8,
-      name: "Kavya Nair",
-      role: "Design Coordinator",
-      department: "Design",
-      email: "kavya.nair@student.college.edu",
-      linkedin: "https://linkedin.com/in/kavyanair",
-      image:
-        "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "/assets/photos/Devid.jpg",
     },
   ];
 
   const members2025_26 = [
     {
       id: 9,
-      name: "Vikram Singh",
-      role: "Junior Coordinator",
-      department: "Computer Science",
+      name: "Shaham Mubeen",
+      role: "Leader",
+      department: "Computer Engineering",   
       email: "vikram.singh@student.college.edu",
       linkedin: "https://linkedin.com/in/vikramsingh",
-      github: "https://github.com/vikramsingh",
       image:
-        "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "/assets/photos/Shaham.jpeg",
     },
     {
       id: 10,
-      name: "Ananya Gupta",
-      role: "Content Coordinator",
-      department: "English Literature",
-      email: "ananya.gupta@student.college.edu",
+      name: "Amal Jith",
+      role: "Member",
+      department: "Mechnaical Engineering",
+      // email: "ananya.gupta@student.college.edu",
       linkedin: "https://linkedin.com/in/ananyagupta",
       image:
-        "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "/assets/photos/AmalJith.jpg",
     },
     {
       id: 11,
-      name: "Rohan Mehta",
-      role: "Social Media Coordinator",
-      department: "Mass Communication",
-      email: "rohan.mehta@student.college.edu",
+      name: "Aju Vincent",
+      role: "Member",
+      department: "Automobile Engineering",
+      // email: "rohan.mehta@student.college.edu",
       linkedin: "https://linkedin.com/in/rohanmehta",
-      twitter: "https://twitter.com/rohanmehta",
+      // twitter: "https://twitter.com/rohanmehta",
       image:
-        "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "/assets/photos/Aju.jpg",
     },
     {
       id: 12,
-      name: "Ishita Jain",
-      role: "Outreach Coordinator",
-      department: "Psychology",
-      email: "ishita.jain@student.college.edu",
-      linkedin: "https://linkedin.com/in/ishitajain",
+      name: "Alen charly",
+      role: "Member",
+      department: "Mechanical Engineering",
+      // email: "ishita.jain@student.college.edu",
+      linkedin: "",
       image:
-        "https://images.pexels.com/photos/1239288/pexels-photo-1239288.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "/assets/photos/Alen.jpg",
+    },
+       {
+      id: 13,
+      name: "AmalKrishna",
+      role: "Member",
+      department: "Mechanical Engineering",
+      // email: "ishita.jain@student.college.edu",
+      linkedin: "",
+      image:
+        "/assets/photos/Amal.jpg",
+    },
+       {
+      id: 14,
+      name: "Anandhu",
+      role: "Member",
+      department: "Automobile Engineering",
+      // email: "ishita.jain@student.college.edu",
+      linkedin: "",
+      image:
+        "/assets/photos/Anandhu.jpg",
+    },
+     {
+      id: 15,
+      name: "Bijo",
+      role: "Member",
+      department: "Automobile Engineering",
+      // email: "ishita.jain@student.college.edu",
+      linkedin: "",
+      image:
+        "/assets/photos/BIJO.jpg",
+    },
+    {
+      id: 16,
+      name: "Devid",
+      role: "Member",
+      department: "Automobile Engineering",
+      // email: "ishita.jain@student.college.edu",
+      linkedin: "",
+      image:
+        "/assets/photos/Devid.jpg",
     },
   ];
 
   const yearOptions = [
     { value: "2025-26", label: "Members 2025-26", members: members2025_26 },
     { value: "2024-25", label: "Members 2024-25", members: members2024_25 },
-    { value: "2023-24", label: "Members 2023-24", members: members2023_24 },
+    // { value: "2023-24", label: "Members 2023-24", members: members2023_24 },
   ];
 
   const currentMembers =
