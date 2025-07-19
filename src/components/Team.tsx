@@ -49,17 +49,17 @@ const Team: React.FC = () => {
        image:
          "/assets/photos/Sreejesh.jpg",
      },
-      {
-       id: 5,
-       name: "Sreekanth",
-       role: "Member",
-      //  department: "Business Administration",
-      //  email: "emily.zhang@student.college.edu",
-      //  linkedin: "https://linkedin.com/in/emilyzhang",
-      //  twitter: "https://twitter.com/emilyzhang",
-       image:
-         "/assets/photos/",
-     },
+    //   {
+    //    id: 5,
+    //    name: "Sreekanth",
+    //    role: "Member",
+    //   //  department: "Business Administration",
+    //   //  email: "emily.zhang@student.college.edu",
+    //   //  linkedin: "https://linkedin.com/in/emilyzhang",
+    //   //  twitter: "https://twitter.com/emilyzhang",
+    //    image:
+    //      "/assets/photos/",
+    //  },
    ];
   const members2024_25 = [
     {
