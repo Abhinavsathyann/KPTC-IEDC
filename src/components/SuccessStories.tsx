@@ -12,6 +12,12 @@ const SuccessStories: React.FC = () => {
   const [currentStory, setCurrentStory] = useState(0);
 
   const stories = [
+      {
+      id: 5,
+      image: "/assets/photos/NEC25logo.png",
+      // title: "Inauguration",
+      // description: "Inauguration of IEDC "
+    },
     {
       id: 1,
       image: "/assets/photos/NECteam25.jpeg",
@@ -26,22 +32,17 @@ const SuccessStories: React.FC = () => {
     },
     {
       id: 3,
-      image: "https://www.kuttukaranpoly.com/wp-content/uploads/2024/06/0012.jpg",
-      title: "example iedc",
-      description: "example iedc of success stories."
+      image: "/assets/photos/NEC2024TEAM.jpg",
+      title: "NEC 2024 Team",
+      // description: "example iedc of success stories."
     },
     {
       id: 4,
-      image: "https://www.kuttukaranpoly.com/wp-content/uploads/2023/07/DSC05414-scaled.jpg",
-      title: "IEDC",
-      description: "iedc success stories two"
+      image: "/assets/photos/NEC2023.jpg",
+      title: "NEC 2023 Team",
+      // description: "iedc success stories two"
     },
-    {
-      id: 5,
-      image: "https://www.kuttukaranpoly.com/wp-content/uploads/2023/06/inaugration.webp",
-      title: "Inauguration",
-      description: "Inauguration of IEDC "
-    },
+  
   
   ];
 
