@@ -12,21 +12,21 @@ const Events: React.FC = () => {
   const upcomingEvents = [
     {
       id: 1,
-      title: "AI Innovation Summit 2024",
-      description: "Join industry leaders and innovators for a comprehensive summit on artificial intelligence and its applications in entrepreneurship.",
+      title: "DEMO",
+      description: "The update will be live on the website soon",
       image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
-    {
+     {
       id: 2,
-      title: "Startup Pitch Competition",
-      description: "Present your innovative business ideas to a panel of investors and industry experts for a chance to win funding and mentorship.",
-      image: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
+      title: "DEMO",
+      description: "The update will be live on the website soon",
+      image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
-    {
-      id: 3,
-      title: "Blockchain Workshop Series",
-      description: "Hands-on workshop covering blockchain technology, smart contracts, and decentralized applications development.",
-      image: "  "
+     {
+      id: 3 ,
+      title: "DEMO",
+      description: "The update will be live on the website soon",
+      image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
     }
   ];
 

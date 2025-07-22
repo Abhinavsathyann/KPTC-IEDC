@@ -12,8 +12,8 @@ const ProjectShowcase: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: 'EcoTrack AI',
-      description: 'AI-powered environmental monitoring system that tracks air quality and predicts pollution levels using machine learning algorithms and IoT sensors.',
+      title: 'DEMO',
+      description: 'The update will be live on the website soon',
       image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: '',
       demo: '',
@@ -21,21 +21,21 @@ const ProjectShowcase: React.FC = () => {
     },
     {
       id: 2,
-      title: 'HealthBot Assistant',
-      description: 'Intelligent chatbot providing personalized health recommendations and symptom analysis using natural language processing and medical databases.',
-      image: 'https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'DEMO',
+      description: 'The update will be live on the website soon',
+      image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: '',
       demo: '',
-      year: '2023'
+      year: '2024'
     },
     {
       id: 3,
-      title: 'SmartCampus Platform',
-      description: 'Comprehensive web platform for campus management, student services, and academic tracking with real-time notifications and analytics.',
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+   title: 'DEMO',
+      description: 'The update will be live on the website soon',
+      image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: '',
       demo: '',
-      year: '2022'
+      year: '2024'
     }
   ];
 
