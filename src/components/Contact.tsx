@@ -90,7 +90,7 @@ const Contact: React.FC = () => {
                     <MapPin className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white mb-1">IEDC Office Address</h4>
+                    <h4 className="font-semibold text-gray-900 dark:text-white mb-1">E-IEDC Office Address</h4>
                     <p className="text-gray-600 dark:text-gray-300">
                       Kuttukaran Polytechnic college<br />
                      Manakkappaddi- Manjali Road, Karumallor P O, N.Paravur, Ernakulam-683511<br />
@@ -327,7 +327,7 @@ const Contact: React.FC = () => {
           <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 text-center shadow-lg">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Find Us on Campus</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Visit our IEDC office located in the main academic building. We're here to help you turn your ideas into reality.
+              Visit our E-IEDC office located in the main academic building. We're here to help you turn your ideas into reality.
             </p>
             <motion.a
               href="https://www.google.com/maps/place/Kuttukaran+Polytechnic+College+(KPTC)/@10.1275582,76.2685137,20256m/data=!3m1!1e3!4m6!3m5!1s0x3b080ffde58b8a59:0xf98cfc2b1a694619!8m2!3d10.141449!4d76.2720272!16s%2Fg%2F1tr15_lr?hl=en&entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"

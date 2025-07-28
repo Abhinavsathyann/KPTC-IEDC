@@ -166,7 +166,7 @@ const Gallery: React.FC = () => {
             Photo <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Gallery</span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Capturing moments of innovation, collaboration, and entrepreneurial spirit in our IEDC community
+            Capturing moments of innovation, collaboration, and entrepreneurial spirit in our E-IEDC community
           </p>
         </motion.div>
 

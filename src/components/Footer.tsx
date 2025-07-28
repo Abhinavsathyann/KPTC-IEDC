@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
                 viewport={{ once: true }}
               >
                 <h3 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                  IEDC
+                 E-IEDC
                 </h3>
                 <p className="text-gray-400 mb-6 leading-relaxed">
                   Innovation and Entrepreneurship Development Cell at Kuttukaran Polytechnic College. 
@@ -267,7 +267,7 @@ const Footer: React.FC = () => {
                   >
                     {/* <Heart className="h-4 w-4 mx-1 text-red-500" /> */}
                   </motion.div>
-                  <span>Made with by KPTC IEDC Team</span>
+                  <span>Made with by KPTC E-IEDC Team</span>
                 </div>
               </div>
             </div>

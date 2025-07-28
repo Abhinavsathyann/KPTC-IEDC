@@ -43,7 +43,7 @@ const Timeline: React.FC = () => {
   const milestones = [
       {
       year: '2022',
-      title: 'IEDC Establishment',
+      title: 'E-IEDC Establishment',
       description: 'Founded the Innovation and Entrepreneurship Development Cell with a vision to foster startup culture.',
       icon: Calendar,
       color: 'from-teal-500 to-blue-500'

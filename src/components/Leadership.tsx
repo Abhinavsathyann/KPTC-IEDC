@@ -64,7 +64,7 @@ const Leadership: React.FC = () => {
       phone: "#",
       linkedin: "#",
       message:
-        "As the Coordinator of IEDC, I am thrilled to witness the incredible enthusiasm our students bring to the world of innovation. From ideation to execution, our goal is to support and mentor every aspiring entrepreneur. Together, we aim to create a sustainable and dynamic startup ecosystem within the college.",
+        "As the Coordinator of E-IEDC, I am thrilled to witness the incredible enthusiasm our students bring to the world of innovation. From ideation to execution, our goal is to support and mentor every aspiring entrepreneur. Together, we aim to create a sustainable and dynamic startup ecosystem within the college.",
     },
   ];
 
