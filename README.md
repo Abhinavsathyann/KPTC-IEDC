@@ -41,58 +41,43 @@ Welcome to the official website repository of the **E-IEDC (Innovation & Entrepr
 
 ---
 
-# 📜 MIT License
+# © 2025 Kuttukaran Polytechnic College E-IEDC  
+**All Rights Reserved**
 
-**Copyright (c) 2025  
-Kuttukaran Polytechnic College E-IEDC**
-
----
-
-## 🔓 Permission Notice
-
-Permission is hereby granted, **free of charge**, to any person obtaining a copy  
-of this software and associated documentation files (the **“Software”**), to deal in the Software  
-**without restriction**, including without limitation the rights to:
-
-- 🔁 Use the Software  
-- ✍️ Copy and Modify the Software  
-- 📦 Merge into other projects  
-- 📰 Publish the Software  
-- 📨 Distribute to any platform  
-- 💼 Sublicense  
-- 💰 Sell copies of the Software  
-
-And to permit persons to whom the Software is furnished to do so, **subject to the following conditions:**
+This website and its source code are the intellectual property of  
+**Kuttukaran Polytechnic College – Innovation & Entrepreneurship Development Cell (E-IEDC).**
 
 ---
 
-## 📌 Conditions of Use
+## ❌ Usage Restrictions
 
-The following conditions **must be met** by anyone using this software:
+You may **not**, without prior written permission:
 
-- The **copyright notice**
-- This **permission notice**
+- 🔒 Use this code in personal or commercial projects  
+- 🔒 Copy, modify, or reverse-engineer the source code  
+- 🔒 Redistribute or host this code in any form  
+- 🔒 Integrate it with other software or platforms  
 
-must be included in **all copies** or **substantial portions** of the Software.
+---
+
+## 🛡️ Legal Protection
+
+This project is protected under **Indian Copyright Law**  
+and international conventions. Unauthorized use, reproduction,  
+distribution, or alteration of this work is a **violation of copyright** and may result in legal action.
 
 ---
 
-## ⚠️ Legal Disclaimer
+## 📝 Permissions
 
-> THE SOFTWARE IS PROVIDED **"AS IS"**, WITHOUT WARRANTY OF ANY KIND,  
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF:
+To request usage or redistribution rights, please contact:
 
-- ⚙️ **MERCHANTABILITY**  
-- 🎯 **FITNESS FOR A PARTICULAR PURPOSE**  
-- 🛡️ **NON-INFRINGEMENT**
-
-In **no event** shall the authors or copyright holders  
-be liable for **any claim, damages, or other liability**,  
-whether in an action of **contract, tort, or otherwise**,  
-arising from, out of, or in connection with the Software or the use  
-or other dealings in the Software.
+📧 **iedc@kuttukaranpoly.ac.in**  
+📍 **Kuttukaran Polytechnic College, Kerala, India**
 
 ---
+
+> ⚠️ This project is intended for academic, official, and protected use only.
 
 ## 👨‍💻 Maintained by
 
@@ -103,6 +88,10 @@ or other dealings in the Software.
 > 📧 Email: [iedc@kuttukaranpoly.ac.in](mailto:)
 
 ---
+
+## 📄 License
+
+This project is licensed under the terms of the [MIT License](./LICENSE.md).
 
 
 
