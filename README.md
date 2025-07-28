@@ -100,7 +100,7 @@ or other dealings in the Software.
 > **Kuttukaran Polytechnic College**  
 > 📍 Kerala, India  
 > 🌐 [Visit Our Website](https://kptciedc.vercel.app/)  
-> 📧 Email: [iedc@kuttukaranpoly.ac.in](mailto:iedc@kuttukaranpoly.ac.in)
+> 📧 Email: [iedc@kuttukaranpoly.ac.in](mailto:)
 
 ---
 
