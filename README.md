@@ -37,7 +37,7 @@ Welcome to the official website repository of the **E-IEDC (Innovation & Entrepr
 
 > Below is a quick glimpse of our website interface.
 
-![Website Preview](https://raw.githubusercontent.com/<Abhinavsathyann>/<KPTC_IEDC>/main/public/preview.jpg)
+![Website Preview](https://kptciedc.vercel.app/)
 
 ---
 
