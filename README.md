@@ -83,7 +83,6 @@ Welcome to the official website repository of the **E-IEDC (Innovation & Entrepr
 
 - 📰 Dynamic sections for announcements and events  
 - 🧑‍🎓 Startups showcase by student entrepreneurs  
-- 🧾 IEDC registration form integration  
 - 📸 Media gallery and project highlights  
 - 📬 Contact form and admin email support  
 - 🔒 Secure routing and 404 pages
@@ -113,6 +112,3 @@ npm install
 
 # Start the development server
 npm run dev
-
-
-
