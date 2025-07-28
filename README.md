@@ -4,7 +4,7 @@
 [![Stars](https://img.shields.io/github/stars/<your-username>/<repo-name>?style=flat-square)](https://github.com/<your-username>/<repo-name>/stargazers)
 [![Issues](https://img.shields.io/github/issues/<your-username>/<repo-name>?style=flat-square)](https://github.com/<your-username>/<repo-name>/issues)
 [![Forks](https://img.shields.io/github/forks/<your-username>/<repo-name>?style=flat-square)](https://github.com/<your-username>/<repo-name>/network)
-[![Live Site](https://img.shields.io/badge/View%20Site-Live-green?style=flat-square&logo=vercel)](https://<your-live-site-link>.vercel.app)
+[![Live Site](https://img.shields.io/badge/View%20Site-Live-green?style=flat-square&logo=vercel)](https://kptciedc.vercel.app/)
 
 ---
 
