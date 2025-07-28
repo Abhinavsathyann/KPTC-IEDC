@@ -108,7 +108,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white mb-1">Email</h4>
                     <a 
-                      href="mailto:iedc@college.edu"
+                      href="mailto:"
                       className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                     >
                      info@kuttukaranpoly.com

@@ -17,7 +17,7 @@ const Leadership: React.FC = () => {
       phone: "#",
       linkedin: "#",
       message:
-        "At Kuttukaran Polytechnic College, we believe innovation is the key to a brighter future. The Innovation and Entrepreneurship Development Cell (IEDC) stands as a beacon of creativity, empowering students to convert their ideas into impactful solutions. IEDC fosters a culture of innovation, research, and entrepreneurship. I congratulate the entire team for their active efforts in shaping tomorrow’s leaders.",
+        "At Kuttukaran Polytechnic College, we believe innovation is the key to a brighter future. The Innovation and Entrepreneurship Development Cell (E-IEDC) stands as a beacon of creativity, empowering students to convert their ideas into impactful solutions. IEDC fosters a culture of innovation, research, and entrepreneurship. I congratulate the entire team for their active efforts in shaping tomorrow’s leaders.",
     },
     {
       id: 2,
@@ -57,7 +57,7 @@ const Leadership: React.FC = () => {
     {
       id: 5,
       name: "Mr. Ebin petter",
-      position: "IEDC Coordinator",
+      position: "E-IEDC Coordinator",
       image:
         "/assets/photos/EbinSir.jpg",
       email: "#",

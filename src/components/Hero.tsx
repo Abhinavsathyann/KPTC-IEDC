@@ -114,7 +114,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
             whileTap={{ scale: 0.95 }}
             className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
           >
-            About IEDC
+            About E-IEDC
           </motion.button>
           <motion.button
             onClick={() => onNavigate('gallery')}

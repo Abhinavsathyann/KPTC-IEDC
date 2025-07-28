@@ -221,7 +221,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-sm text-gray-400">Email</div>
-                  <a href="mailto:iedc@college.edu" className="text-white hover:text-blue-400 transition-colors">
+                  <a href="mailto:" className="text-white hover:text-blue-400 transition-colors">
                     info@kuttukaranpoly.com
                   </a>
                 </div>
@@ -250,7 +250,7 @@ const Footer: React.FC = () => {
           >
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 text-sm mb-4 md:mb-0">
-                © {currentYear} IEDC Kuttukaran Polytechnic College. All Rights Reserved.
+                © {currentYear} E-IEDC Kuttukaran Polytechnic College. All Rights Reserved.
               </p>
               <div className="flex items-center space-x-6">
                 <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">

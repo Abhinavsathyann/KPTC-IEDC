@@ -66,7 +66,7 @@ const Navigation: React.FC<NavigationProps> = ({
         className="h-6 w-auto"
       />
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              IEDC
+              E-IEDC
             </span>
           </motion.div>
 
