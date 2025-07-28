@@ -57,7 +57,7 @@ To request usage or redistribution rights, please contact:
 
 # 🚀 Kuttukaran Polytechnic College - E-IEDC Official Website
 
-[![License](https://img.shields.io/github/license/Abhinavsathyann/KPTC-IEDC?style=flat-square)](https://github.com/Abhinavsathyann/KPTC-IEDC/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/Abhinavsathyann/KPTC-IEDC?style=flat-square)](https://github.com/Abhinavsathyann/KPTC-IEDC/tree/main?tab=License-1-ov-file)
 [![Live Site](https://img.shields.io/badge/View%20Site-Live-green?style=flat-square&logo=vercel)](https://kptciedc.vercel.app/)
 
 ---
