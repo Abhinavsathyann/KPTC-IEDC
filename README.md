@@ -41,6 +41,72 @@ Welcome to the official website repository of the **E-IEDC (Innovation & Entrepr
 
 ---
 
+# 📜 MIT License
+
+**Copyright (c) 2025  
+Kuttukaran Polytechnic College E-IEDC**
+
+---
+
+## 🔓 Permission Notice
+
+Permission is hereby granted, **free of charge**, to any person obtaining a copy  
+of this software and associated documentation files (the **“Software”**), to deal in the Software  
+**without restriction**, including without limitation the rights to:
+
+- 🔁 Use the Software  
+- ✍️ Copy and Modify the Software  
+- 📦 Merge into other projects  
+- 📰 Publish the Software  
+- 📨 Distribute to any platform  
+- 💼 Sublicense  
+- 💰 Sell copies of the Software  
+
+And to permit persons to whom the Software is furnished to do so, **subject to the following conditions:**
+
+---
+
+## 📌 Conditions of Use
+
+The following conditions **must be met** by anyone using this software:
+
+- The **copyright notice**
+- This **permission notice**
+
+must be included in **all copies** or **substantial portions** of the Software.
+
+---
+
+## ⚠️ Legal Disclaimer
+
+> THE SOFTWARE IS PROVIDED **"AS IS"**, WITHOUT WARRANTY OF ANY KIND,  
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF:
+
+- ⚙️ **MERCHANTABILITY**  
+- 🎯 **FITNESS FOR A PARTICULAR PURPOSE**  
+- 🛡️ **NON-INFRINGEMENT**
+
+In **no event** shall the authors or copyright holders  
+be liable for **any claim, damages, or other liability**,  
+whether in an action of **contract, tort, or otherwise**,  
+arising from, out of, or in connection with the Software or the use  
+or other dealings in the Software.
+
+---
+
+## 👨‍💻 Maintained by
+
+> **Innovation & Entrepreneurship Development Cell (E-IEDC)**  
+> **Kuttukaran Polytechnic College**  
+> 📍 Kerala, India  
+> 🌐 [Visit Our Website](https://your-deployed-site.vercel.app)  
+> 📧 Email: [iedc@kuttukaranpoly.ac.in](mailto:iedc@kuttukaranpoly.ac.in)
+
+---
+
+
+
+
 ## 🚧 Installation Guide
 
 ```bash
@@ -55,3 +121,6 @@ npm install
 
 # Start the development server
 npm run dev
+
+
+
