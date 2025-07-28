@@ -45,10 +45,10 @@ Welcome to the official website repository of the **E-IEDC (Innovation & Entrepr
 
 ```bash
 # Clone the repository
-git clone https://github.com/<Abhinavsathyann>/<KPTC-IEDC>.git
+git clone https://github.com/Abhinavsathyann/KPTC-IEDC.git
 
 # Navigate into the project
-cd <repo-name>
+cd KPTC-IEDC
 
 # Install dependencies
 npm install
