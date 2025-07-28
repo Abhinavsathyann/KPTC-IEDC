@@ -92,7 +92,7 @@ function App() {
             transition={{ delay: 0.5 }}
             className="text-4xl font-bold text-white mb-2"
           >
-            KPTC IEDC
+            KPTC E-IEDC
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
