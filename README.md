@@ -1,6 +1,6 @@
 # 🚀 Kuttukaran Polytechnic College - E-IEDC Official Website
 
-[![License](https://img.shields.io/github/license/<your-username>/<repo-name>?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/github/license/<Abhinavsathyann>/<KPTC-IEDC>?style=flat-square)](LICENSE)
 [![Live Site](https://img.shields.io/badge/View%20Site-Live-green?style=flat-square&logo=vercel)](https://kptciedc.vercel.app/)
 
 ---
