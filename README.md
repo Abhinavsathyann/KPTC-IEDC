@@ -29,7 +29,7 @@ distribution, or alteration of this work is a **violation of copyright** and may
 
 To request usage or redistribution rights, please contact:
 
-📧 **iedc@kuttukaranpoly.ac.in**  
+📧 **uttukaranpoly**  
 📍 **Kuttukaran Polytechnic College, Kerala, India**
 
 ---
