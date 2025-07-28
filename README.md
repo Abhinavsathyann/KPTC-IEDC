@@ -42,7 +42,7 @@ To request usage or redistribution rights, please contact:
 > **Kuttukaran Polytechnic College**  
 > 📍 Kerala, India  
 > 🌐 [Visit Our Website](https://kptciedc.vercel.app/)  
-> 📧 Email: [iedc@kuttukaranpoly.ac.in](mailto:)
+> 📧 Email: [Kuttukaranpoly](mailto:)
 
 ---
 
