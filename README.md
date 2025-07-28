@@ -90,7 +90,8 @@ Welcome to the official website repository of the **E-IEDC (Innovation & Entrepr
 
 > Below is a quick glimpse of our website interface.
 
-![Website Preview](https://kptciedc.vercel.app/)
+- ![Website Preview](https://kptciedc.vercel.app/)
++ ![Website Preview](https://github.com/Abhinavsathyann/KPTC-IEDC/blob/main/public/preview.jpg?raw=true)
 
 ---
 
