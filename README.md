@@ -53,6 +53,7 @@ To request usage or redistribution rights, please contact:
 + Any unauthorized use or distribution is prohibited.  
 + See the full license terms [here](./LICENSE.md).
 
+-------------------------------------
 
 # 🚀 Kuttukaran Polytechnic College - E-IEDC Official Website
 
