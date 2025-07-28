@@ -97,7 +97,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           >
             Empowering the next generation of innovators and entrepreneurs at{' '}
             <span className="font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Kuttukaran Polytechnic College
+              Kuttukaran Polytechnic College 
             </span>
           </motion.p>
         </motion.div>
