@@ -46,8 +46,6 @@ To request usage or redistribution rights, please contact:
 
 ---
 
-- ## 📄 License
-- This project is licensed under the terms of the [MIT License](./LICENSE.md).
 + ## 📄 License
 + This project is strictly protected under **All Rights Reserved** terms.  
 + Any unauthorized use or distribution is prohibited.  
