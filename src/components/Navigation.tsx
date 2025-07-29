@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Search } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "./ThemeToggle"; // Make sure this component exists
 
 interface NavigationProps {
   activeSection: string;
@@ -28,6 +28,12 @@ const Navigation: React.FC<NavigationProps> = ({
     { id: "events", label: "Events" },
     { id: "success", label: "Success Stories" },
     { id: "contact", label: "Contact" },
+    {
+      id: "login",
+      label: "Login",
+      external: true,
+      href: "https://kptcecelllogin.netlify.app/",
+    },
   ];
 
   useEffect(() => {
@@ -53,53 +59,62 @@ const Navigation: React.FC<NavigationProps> = ({
           : "bg-transparent"
       }`}
     >
-    <div className="mx-auto px-5 sm:px-8 lg:px-10">
-  <div className="flex justify-around items-center h-16">
-    {/* Logo */}
-    <motion.div
-      className="flex items-center"
-      whileHover={{ scale: 1.05 }}
-    >
-      <img
-        src="https://www.kuttukaranpoly.com/wp-content/uploads/2022/10/logo.png"
-        alt="Kuttukaran Polytechnic College Logo"
-        className="h-6 w-auto"
-      />
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+      <div className="mx-auto px-5 sm:px-8 lg:px-10">
+        <div className="flex justify-around items-center h-16">
+          {/* Logo */}
+          <motion.div className="flex items-center" whileHover={{ scale: 1.05 }}>
+            <img
+              src="https://www.kuttukaranpoly.com/wp-content/uploads/2022/10/logo.png"
+              alt="Kuttukaran Polytechnic College Logo"
+              className="h-6 w-auto"
+            />
+            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent ml-2">
               E-IEDC
             </span>
           </motion.div>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-6">
-            {navItems.map((item) => (
-              <motion.button
-                key={item.id}
-                onClick={() => handleNavClick(item.id)}
-                className={`relative px-3 py-2 text-sm font-medium transition-colors ${
-                  activeSection === item.id
-                    ? "text-blue-600 dark:text-blue-400"
-                    : "text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
-                }`}
-                whileHover={{ y: -2 }}
-                whileTap={{ y: 0 }}
-              >
-                {item.label}
-                {activeSection === item.id && (
-                  <motion.div
-                    layoutId="activeTab"
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600 dark:bg-blue-400"
-                    initial={false}
-                    transition={{ type: "spring", stiffness: 500, damping: 30 }}
-                  />
-                )}
-              </motion.button>
-            ))}
+            {navItems.map((item) =>
+              item.external ? (
+                <motion.a
+                  key={item.id}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative px-3 py-2 text-sm font-medium transition-colors text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
+                  whileHover={{ y: -2 }}
+                  whileTap={{ y: 0 }}
+                >
+                  {item.label}
+                </motion.a>
+              ) : (
+                <motion.button
+                  key={item.id}
+                  onClick={() => handleNavClick(item.id)}
+                  className={`relative px-3 py-2 text-sm font-medium transition-colors ${
+                    activeSection === item.id
+                      ? "text-blue-600 dark:text-blue-400"
+                      : "text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
+                  }`}
+                  whileHover={{ y: -2 }}
+                  whileTap={{ y: 0 }}
+                >
+                  {item.label}
+                  {activeSection === item.id && (
+                    <motion.div
+                      layoutId="activeTab"
+                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600 dark:bg-blue-400"
+                      initial={false}
+                      transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                    />
+                  )}
+                </motion.button>
+              )
+            )}
           </div>
 
-          <ThemeToggle />
-
-          {/* Mobile menu button */}
+          {/* Right corner controls */}
           <div className="lg:hidden flex items-center space-x-2">
             <ThemeToggle />
             <motion.button
@@ -146,22 +161,37 @@ const Navigation: React.FC<NavigationProps> = ({
             className="lg:hidden bg-white dark:bg-gray-900 shadow-lg"
           >
             <div className="px-4 py-6 space-y-4 max-h-96 overflow-y-auto">
-              {navItems.map((item, index) => (
-                <motion.button
-                  key={item.id}
-                  onClick={() => handleNavClick(item.id)}
-                  className={`block w-full text-left px-4 py-3 rounded-lg font-medium transition-colors ${
-                    activeSection === item.id
-                      ? "bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400"
-                      : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
-                  }`}
-                  initial={{ x: -50, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  transition={{ delay: index * 0.05 }}
-                >
-                  {item.label}
-                </motion.button>
-              ))}
+              {navItems.map((item, index) =>
+                item.external ? (
+                  <motion.a
+                    key={item.id}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full text-left px-4 py-3 rounded-lg font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
+                    initial={{ x: -50, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ delay: index * 0.05 }}
+                  >
+                    {item.label}
+                  </motion.a>
+                ) : (
+                  <motion.button
+                    key={item.id}
+                    onClick={() => handleNavClick(item.id)}
+                    className={`block w-full text-left px-4 py-3 rounded-lg font-medium transition-colors ${
+                      activeSection === item.id
+                        ? "bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400"
+                        : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
+                    }`}
+                    initial={{ x: -50, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ delay: index * 0.05 }}
+                  >
+                    {item.label}
+                  </motion.button>
+                )
+              )}
               <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
                 <div className="relative">
                   <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
