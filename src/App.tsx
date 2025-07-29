@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
+import SmoothScrollHero   from "./components/SmoothScrollHero";
 import AboutCollege from "./components/AboutCollege";
 import Leadership from "./components/Leadership";
 import About from "./components/About";
@@ -138,6 +139,7 @@ function App() {
           <Hero onNavigate={scrollToSection} />
           <AboutCollege />
           <Leadership />
+          <SmoothScrollHero />
           <About />
           <Timeline />
           <ProjectShowcase />
