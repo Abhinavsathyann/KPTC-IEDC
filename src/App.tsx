@@ -9,6 +9,7 @@ import About from "./components/About";
 import Timeline from "./components/Timeline";
 import ProjectShowcase from "./components/ProjectShowcase";
 import Team from "./components/Team";
+import ScrollVelocity from './components/ScrollVelocity';
 import Events from "./components/Events";
 import SuccessStories from "./components/SuccessStories";
 import Gallery from "./components/Gallery";
@@ -143,6 +144,12 @@ function App() {
           <About />
           <Timeline />
           <ProjectShowcase />
+       
+<div style={{ height: '600px', position: 'relative' }}>
+  <ScrollVelocity bend={3} textColor="#000000ff" borderRadius={0.05} scrollEase={0.02}/>
+</div>
+
+
           <Team />
           <Gallery />
           <Events />
