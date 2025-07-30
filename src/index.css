@@ -64,3 +64,14 @@ html {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Hide the gallery on mobile devices */
+.circular-gallery {
+  display: none; /* Default to hidden */
+}
+/* Show the gallery on devices wider than 768px (or your desired breakpoint) */
+@media (min-width: 768px) {
+  .circular-gallery {
+    display: block; /* Show on larger screens */
+  }
+}
